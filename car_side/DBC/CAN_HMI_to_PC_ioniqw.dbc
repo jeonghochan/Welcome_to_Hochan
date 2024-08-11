@@ -1,0 +1,148 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 583 Station_Name_REQ: 8 Vector__XXX
+ SG_ Station_Name_REQ : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 582 Route_Name_REQ: 8 Vector__XXX
+ SG_ Route_Name_REQ : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 578 Station_GPS_REQ: 8 Vector__XXX
+ SG_ Station_GPS_REQ : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 577 Route_Num_StopNum_REQ: 8 Vector__XXX
+ SG_ Route_Total_StopNum_REQ : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 576 Route_Total_Num_REQ: 8 Vector__XXX
+
+BO_ 574 Delete_Station: 8 Vector__XXX
+ SG_ Delete_Station_Stop : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Delete_Station_RouteNumber : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 573 Station_Name3: 8 Vector__XXX
+ SG_ Station_Name_Char8 : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char7 : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char6 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char5 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 572 Station_Name2: 8 Vector__XXX
+ SG_ Station_Name_Char4 : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char3 : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char2 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Name_Char1 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 571 Station_Name1: 8 Vector__XXX
+ SG_ Station_Name_Number : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 570 Route_Name3: 8 Vector__XXX
+ SG_ Route_Name_Char8 : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char7 : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char6 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char5 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 569 Route_Name2: 8 Vector__XXX
+ SG_ Route_Name_Char4 : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char3 : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char2 : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Route_Name_Char1 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 568 Route_Name1: 8 Vector__XXX
+ SG_ Route_Name_Number : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 562 Station_Register_Global: 8 Vector__XXX
+ SG_ Station_Register_Global_Stop : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 561 Station_Register: 8 Vector__XXX
+ SG_ Station_Register_Stop : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Station_Register_Route : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 560 Set_Speed: 8 Vector__XXX
+ SG_ Set_Speed_min : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Set_Speed_max : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 555 Automation_On: 8 Vector__XXX
+ SG_ Automation_On_UI : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 553 Global_Route_API3: 8 Vector__XXX
+ SG_ Global_Route_API3_Remain : 48|16@1- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ Global_Route_API3_PosLon : 24|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+ SG_ Global_Route_API3_PosLat : 0|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+
+BO_ 552 Global_Route_API2: 8 Vector__XXX
+ SG_ Global_Route_API2_Remain : 48|16@1- (1,0) [-32768|32767] "m" Vector__XXX
+ SG_ Global_Route_API2_PosLon : 24|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+ SG_ Global_Route_API2_PosLat : 0|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+
+BO_ 554 HMI_Connect: 8 Vector__XXX
+ SG_ HMI_Connect_On : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 551 Global_Route_API1: 8 Vector__XXX
+ SG_ Global_Route_API1_Remain : 48|16@1- (1,0) [-32768|32767] "m" Vector__XXX
+ SG_ Global_Route_API1_PosLon : 24|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+ SG_ Global_Route_API1_PosLat : 0|24@1+ (1E-005,0) [0|167.77215] "" Vector__XXX
+
+BO_ 550 Route_Select: 8 Vector__XXX
+ SG_ Route_Select_UI : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 546 Store_On: 8 Vector__XXX
+ SG_ Store_On_UI : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 545 ACC_On: 8 Vector__XXX
+ SG_ ACC_On_UI : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 544 MDPS_On: 8 Vector__XXX
+ SG_ MDPS_On_UI : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "DBName" "CAN_UI_RX_to_PC";
+

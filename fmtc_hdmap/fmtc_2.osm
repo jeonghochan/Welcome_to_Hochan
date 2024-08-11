@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='-137753' action='modify' visible='true' lat='37.36391799456' lon='126.72242561244' />
+  <node id='-137754' action='modify' visible='true' lat='37.36627867458' lon='126.72576711244' />
+  <node id='-137755' action='modify' visible='true' lat='37.36621357513' lon='126.72511771244' />
+  <node id='-137756' action='modify' visible='true' lat='37.36426639161' lon='126.72330441244' />
+  <node id='-137757' action='modify' visible='true' lat='37.36417949235' lon='126.72249251244' />
+  <node id='-137758' action='modify' visible='true' lat='37.36386719499' lon='126.72191381244' />
+  <node id='-137759' action='modify' visible='true' lat='37.36532518265' lon='126.72357961244' />
+  <node id='-137760' action='modify' visible='true' lat='37.36394419434' lon='126.72184621244' />
+  <node id='-137761' action='modify' visible='true' lat='37.36508228471' lon='126.72413291244' />
+  <node id='-137762' action='modify' visible='true' lat='37.36380999548' lon='126.72284721244' />
+  <node id='-137763' action='modify' visible='true' lat='37.36678737028' lon='126.72459971244' />
+  <node id='-137764' action='modify' visible='true' lat='37.36644447318' lon='126.72485391244' />
+  <node id='-137765' action='modify' visible='true' lat='37.36479068718' lon='126.72361921244' />
+  <node id='-137766' action='modify' visible='true' lat='37.36382659534' lon='126.72255571244' />
+  <node id='-137767' action='modify' visible='true' lat='37.36631747425' lon='126.72509311244' />
+  <node id='-137768' action='modify' visible='true' lat='37.3644922897' lon='126.72330591244' />
+  <node id='-137769' action='modify' visible='true' lat='37.36404429349' lon='126.72242561244' />
+  <node id='-137770' action='modify' visible='true' lat='37.36367629661' lon='126.72328161244' />
+  <node id='-137771' action='modify' visible='true' lat='37.36516328402' lon='126.72420991244' />
+  <node id='-137772' action='modify' visible='true' lat='37.36608977618' lon='126.72508981244' />
+  <node id='-137773' action='modify' visible='true' lat='37.3639011947' lon='126.72295891244' />
+  <node id='-137774' action='modify' visible='true' lat='37.36625427479' lon='126.72446111244' />
+  <node id='-137775' action='modify' visible='true' lat='37.36336299926' lon='126.72282871244' />
+  <node id='-137776' action='modify' visible='true' lat='37.36644877314' lon='126.72468621244' />
+  <node id='-137777' action='modify' visible='true' lat='37.36389269478' lon='126.72179861244' />
+  <node id='-137778' action='modify' visible='true' lat='37.36495028583' lon='126.72400131244' />
+  <node id='-137779' action='modify' visible='true' lat='37.36380369553' lon='126.72267041244' />
+  <node id='-137780' action='modify' visible='true' lat='37.36627497461' lon='126.72550571244' />
+  <node id='-137781' action='modify' visible='true' lat='37.36355059767' lon='126.72348991244' />
+  <node id='-137782' action='modify' visible='true' lat='37.36389439476' lon='126.72176931244' />
+  <node id='-137783' action='modify' visible='true' lat='37.36639317361' lon='126.72498851244' />
+  <node id='-137784' action='modify' visible='true' lat='37.36467498816' lon='126.72339241244' />
+  <node id='-137785' action='modify' visible='true' lat='37.36615287565' lon='126.72597551244' />
+  <way id='-103331' action='modify' visible='true'>
+    <nd ref='-137774' />
+    <nd ref='-137759' />
+    <nd ref='-137757' />
+    <nd ref='-137769' />
+    <nd ref='-137753' />
+    <nd ref='-137766' />
+    <nd ref='-137779' />
+    <nd ref='-137762' />
+    <nd ref='-137773' />
+    <nd ref='-137756' />
+    <nd ref='-137768' />
+    <nd ref='-137784' />
+    <nd ref='-137765' />
+    <nd ref='-137778' />
+    <nd ref='-137761' />
+    <nd ref='-137771' />
+    <nd ref='-137772' />
+    <nd ref='-137755' />
+    <nd ref='-137767' />
+    <nd ref='-137783' />
+    <nd ref='-137764' />
+    <nd ref='-137776' />
+    <nd ref='-137774' />
+    <tag k='highway' v='service' />
+    <tag k='horse' v='no' />
+    <tag k='maxspeed' v='80' />
+    <tag k='name' v='차량 연구 연수 트랙 서울 대학교-시흥 스마트 캠퍼스' />
+    <tag k='name:en' v='Vehicle Research Training Track  Seoul National University - Siheung Smart Campus' />
+    <tag k='oneway' v='yes' />
+    <tag k='parking:lane:both' v='no' />
+    <tag k='service' v='Training_Track' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='-103332' action='modify' visible='true'>
+    <nd ref='-137770' />
+    <nd ref='-137754' />
+    <nd ref='-137785' />
+    <nd ref='-137781' />
+    <nd ref='-137770' />
+    <tag k='building' v='yes' />
+  </way>
+</osm>

@@ -1,0 +1,81 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 343 DATE_TIME: 8 Vector__XXX
+ SG_ Millisecond : 48|10@1+ (1,0) [0|1023] "" Vector__XXX
+ SG_ Second : 40|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ Minute : 32|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ Hour : 24|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ Day : 16|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ Month : 12|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Year : 0|12@1+ (1,0) [0|4095] "" Vector__XXX
+
+BO_ 342 IONIQ_ACU_RX: 8 Vector__XXX
+ SG_ ACC_Enable : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EMR_STOP_Enable : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MDPS_Enable : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ MDPS_OVR_Prevention : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_cmd : 8|16@1- (0.1,0) [-3276.8|3276.7] "Deg" Vector__XXX
+ SG_ Ax_cmd : 24|16@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" Vector__XXX
+ SG_ EMR_Ax_cmd : 40|8@1+ (0.01,0) [0|2.55] "g" Vector__XXX
+ SG_ Left_Turn_Signal : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Right_Turn_Signal : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1808 IONIQ_ACU_TX: 8 Vector__XXX
+ SG_ ACC_Enable_Report : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EMR_STOP_Enable_Report : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MDPS_Enable_Report : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MDPS_OVR_Prevention_Report : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SWA_cmd_Report : 8|16@1- (0.1,0) [-3276.8|3276.7] "Deg" Vector__XXX
+ SG_ Ax_cmd_Report : 24|11@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" Vector__XXX
+ SG_ OVR_APS : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OVR_BPS : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACU_AliveCounter : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ MDPS_Module_Stat : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACC_Module_Stat : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OVR_STR : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Turn_Signal_Left_Report : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Turn_Signal_Right_Report : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+VAL_ 342 ACC_Enable 1 "ACC_ON" 0 "ACC_OFF" ;
+VAL_ 342 EMR_STOP_Enable 1 "EMERGENCY_STOP_ENABLE" 0 "EMERGENCY_STOP_DISABLE" ;
+VAL_ 342 MDPS_Enable 1 "MDPS_ENABLE" 0 "MDPS_DISABLE" ;
+VAL_ 342 MDPS_OVR_Prevention 1 "MDPS_OVERRIDE_OFF" 0 "MDPS_OVERRIDE_ON" ;
+

@@ -1,0 +1,119 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ : ADCU BrakeSystemController CM Cluster EBS EHPS_F EHPS_R SAS SIM TMS Tester VCU WPM1 WPM2
+
+BO_ 2565866755 ETC2: 8 Vector__XXX
+  SG_ CR_VCU_ActGear : 8|16@1+ (0.0010000000000000000208,0) [0|64.254999999999995453] "" Vector__XXX
+  SG_ CR_VCU_CurGear : 24|8@1+ (1,-125) [-125|125] "" Vector__XXX
+
+BO_ 2298375691 HRW: 8 BrakeSystemController
+  SG_ CR_HRW_FrtLeftWhlSpeed : 0|16@1+ (0.00390625,0) [0|0] "KPH" VCU
+  SG_ CR_HRW_FrtRightWhlSpeed : 16|16@1+ (0.00390625,0) [0|0] "KPH" VCU
+  SG_ CR_HRW_RRLeftWhlSpeed : 32|16@1+ (0.00390625,0) [0|0] "KPH" VCU
+  SG_ CR_HRW_RRRightWhlSpeed : 48|16@1+ (0.00390625,0) [0|0] "KPH" VCU
+
+BO_ 2565867787 VDC2: 8 Vector__XXX
+  SG_ LateralAcceleration : 40|16@1+ (0.00048828125,-15.686999999999999389) [-15.686999999999999389|15.686999999999999389] "m/s^2" Vector__XXX
+  SG_ LongitudinalAcceleration : 56|8@1+ (0.10000000000000000555,-12.5) [-12.5|12.5] "m/s^2" Vector__XXX
+  SG_ SteerWheelAngle : 0|16@1+ (0.0009765625,-31.373999999999998778) [-31.373999999999998778|31.373999999999998778] "rad" Vector__XXX
+  SG_ SteerWheelAngleSensorType : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ SteerWheelTurnCounter : 16|6@1+ (1,-32) [-10|10] "turns" Vector__XXX
+  SG_ YawRate : 24|16@1+ (0.0001220703125,-3.9199999999999999289) [-3.9199999999999999289|3.9199999999999999289] "rad/s" Vector__XXX
+
+BO_ 2566832622 VDHR: 8 Vector__XXX
+  SG_ HghRsolutionTotalVehicleDistance : 0|32@1+ (5,0) [0|21055406000] "m" Vector__XXX
+  SG_ HighResolutionTripDistance : 32|32@1+ (5,0) [0|21055406000] "m" Vector__XXX
+
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ "ProtocolType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_ BU_ "NmStationAddress" INT 0 255;
+BA_DEF_ BU_ "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_ "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_ "NmJ1939System" INT 0 127;
+BA_DEF_ BU_ "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_ "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_ "NmJ1939FunctionInstance" INT 0 31;
+BA_DEF_ BU_ "NmJ1939ECUInstance" INT 0 7;
+BA_DEF_ BU_ "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_ "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "ProtocolType" "J1939";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_DEF_DEF_ "NmStationAddress" 254;
+BA_DEF_DEF_ "NmJ1939AAC" 0;
+BA_DEF_DEF_ "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_ "NmJ1939System" 0;
+BA_DEF_DEF_ "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_ "NmJ1939Function" 0;
+BA_DEF_DEF_ "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_ "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_ "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_ "NmJ1939IdentityNumber" 0;
+BA_ "VFrameFormat" BO_ 2565866755 3;
+BA_ "GenMsgSendType" BO_ 2565866755 0;
+BA_ "GenMsgCycleTime" BO_ 2565866755 100;
+BA_ "VFrameFormat" BO_ 2298375691 3;
+BA_ "GenMsgSendType" BO_ 2298375691 0;
+BA_ "GenMsgCycleTime" BO_ 2298375691 20;
+BA_ "VFrameFormat" BO_ 2565867787 3;
+BA_ "GenMsgSendType" BO_ 2565867787 0;
+BA_ "GenMsgCycleTime" BO_ 2565867787 10;
+BA_ "VFrameFormat" BO_ 2566832622 3;
+BA_ "GenMsgSendType" BO_ 2566832622 0;
+BA_ "GenMsgCycleTime" BO_ 2566832622 1000;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_CurGear 125;
+BA_ "GenSigStartValue" SG_ 2565867787 SteerWheelTurnCounter 22;
+BA_ "NmStationAddress" BU_ ADCU 42;
+BA_ "NmStationAddress" BU_ BrakeSystemController 11;
+BA_ "NmStationAddress" BU_ EHPS_F 19;
+BA_ "NmStationAddress" BU_ EHPS_R 71;
+BA_ "NmStationAddress" BU_ SAS 228;
+BA_ "NmStationAddress" BU_ SIM 0;
+BA_ "NmStationAddress" BU_ TMS 25;
+BA_ "NmStationAddress" BU_ Tester 249;
+BA_ "NmStationAddress" BU_ VCU 239;
+BA_ "NmStationAddress" BU_ WPM1 57;
+BA_ "NmStationAddress" BU_ WPM2 58;

@@ -1,0 +1,169 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ :
+
+BO_ 1542 AccelLevel: 8 Vector__XXX
+  SG_ AccelDown : 32|16@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ AccelForward : 0|16@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ AccelLateral : 16|16@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 2 Alive_Counter: 8 Vector__XXX
+  SG_ Alive_Counter : 0|8@1- (0.10000000000000001,0) [0|0] "" Vector__XXX
+  SG_ Risk_Flag : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ SWA_direct : 33|31@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 1538 Altitude: 4 Vector__XXX
+  SG_ PosAlt : 0|32@1- (0.001,0) [0|0] "" Vector__XXX
+
+BO_ 17 Automation_Autobox: 8 Vector__XXX
+  SG_ Automation_Autobox : 0|1@1+ (1,0) [0|1000] "" Vector__XXX
+
+BO_ 1 Command_CAN: 8 Vector__XXX
+  SG_ Automation_On : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Stop_sig : 32|32@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ ax_des : 1|31@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 3 Controller: 8 Vector__XXX
+  SG_ SCC_ON : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ TOI_ON : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1543 HeadingPitchRoll: 8 Vector__XXX
+  SG_ AngleHeading : 0|16@1+ (0.01,0) [0|0] "" Vector__XXX
+  SG_ AnglePitch : 16|16@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ AngleRoll : 32|16@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 1272 IBEO_Input: 8 Vector__XXX
+  SG_ Vx : 17|14@1+ (0.0027777800000000001,0) [0|0] "" Vector__XXX
+  SG_ Vx_sign : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ YAW_RATE_ibeo : 48|13@1+ (0.00017452900000000001,0) [0|0] "" Vector__XXX
+  SG_ YAW_RATE_sign : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1537 LatitudeLongitude: 8 Vector__XXX
+  SG_ PosLat : 0|32@1- (1,0) [0|0] "" Vector__XXX
+  SG_ PosLon : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 768 Poly_1: 8 Vector__XXX
+  SG_ poly_val_x_3rd : 32|32@1- (0.0001,0) [0|0] "" Vector__XXX
+  SG_ poly_val_x_4th : 0|32@1- (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 769 Poly_2: 8 Vector__XXX
+  SG_ poly_val_x_1st : 32|32@1- (0.0001,0) [0|0] "" Vector__XXX
+  SG_ poly_val_x_2nd : 0|32@1- (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 770 Poly_3: 8 Vector__XXX
+  SG_ poly_val_x_const : 0|32@1- (0.0001,0) [0|0] "" Vector__XXX
+  SG_ poly_val_y_4th : 32|32@1- (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 771 Poly_4: 8 Vector__XXX
+  SG_ poly_val_y_2nd : 32|32@1- (0.0001,0) [0|0] "" Vector__XXX
+  SG_ poly_val_y_3rd : 0|32@1- (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 772 Poly_5: 8 Vector__XXX
+  SG_ poly_val_y_1st : 0|32@1- (0.0001,0) [0|0] "" Vector__XXX
+  SG_ poly_val_y_const : 32|32@1- (0.0001,0) [0|0] "" Vector__XXX
+
+BO_ 65 RT_Heading: 5 Vector__XXX
+  SG_ H_RT : 0|16@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ RT_DR_Mode : 32|2@1+ (1,0) [0|1000] "" Vector__XXX
+  SG_ RT_STD : 16|16@1+ (0.01,0) [0|1000] "" Vector__XXX
+
+BO_ 272 RT_Position: 8 Vector__XXX
+  SG_ X_RT : 0|32@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ Y_RT : 32|32@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 1540 VelocityLevel: 8 Vector__XXX
+  SG_ VelForward : 0|16@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 4 X_HAT_Heading: 3 Vector__XXX
+  SG_ CAN3_Alive : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Yaw_DR : 0|16@1- (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 265 X_HAT_Position: 8 Vector__XXX
+  SG_ X_DR : 0|32@1- (0.01,0) [0|0] "" Vector__XXX
+  SG_ Y_DR : 32|32@1- (0.01,0) [0|0] "" Vector__XXX
+
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 1542 0;
+BA_ "GenMsgSendType" BO_ 1542 1;
+BA_ "VFrameFormat" BO_ 2 0;
+BA_ "GenMsgSendType" BO_ 2 1;
+BA_ "VFrameFormat" BO_ 1538 0;
+BA_ "GenMsgSendType" BO_ 1538 1;
+BA_ "VFrameFormat" BO_ 17 0;
+BA_ "GenMsgSendType" BO_ 17 1;
+BA_ "VFrameFormat" BO_ 1 0;
+BA_ "GenMsgSendType" BO_ 1 1;
+BA_ "VFrameFormat" BO_ 3 0;
+BA_ "GenMsgSendType" BO_ 3 1;
+BA_ "VFrameFormat" BO_ 1543 0;
+BA_ "GenMsgSendType" BO_ 1543 1;
+BA_ "VFrameFormat" BO_ 1272 0;
+BA_ "GenMsgSendType" BO_ 1272 1;
+BA_ "VFrameFormat" BO_ 1537 0;
+BA_ "GenMsgSendType" BO_ 1537 1;
+BA_ "VFrameFormat" BO_ 768 0;
+BA_ "GenMsgSendType" BO_ 768 1;
+BA_ "VFrameFormat" BO_ 769 0;
+BA_ "GenMsgSendType" BO_ 769 1;
+BA_ "VFrameFormat" BO_ 770 0;
+BA_ "GenMsgSendType" BO_ 770 1;
+BA_ "VFrameFormat" BO_ 771 0;
+BA_ "GenMsgSendType" BO_ 771 1;
+BA_ "VFrameFormat" BO_ 772 0;
+BA_ "GenMsgSendType" BO_ 772 1;
+BA_ "VFrameFormat" BO_ 65 0;
+BA_ "GenMsgSendType" BO_ 65 3;
+BA_ "GenMsgDelayTime" BO_ 65 100;
+BA_ "VFrameFormat" BO_ 272 0;
+BA_ "GenMsgSendType" BO_ 272 1;
+BA_ "VFrameFormat" BO_ 1540 0;
+BA_ "GenMsgSendType" BO_ 1540 1;
+BA_ "VFrameFormat" BO_ 4 0;
+BA_ "GenMsgSendType" BO_ 4 1;
+BA_ "VFrameFormat" BO_ 265 0;
+BA_ "GenMsgSendType" BO_ 265 1;

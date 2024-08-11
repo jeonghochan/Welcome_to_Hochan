@@ -1,0 +1,588 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ : RTRange
+
+BO_ 1287 AccelBias: 8 Vector__XXX
+  SG_ AccelBias1 : 0|16@1- (0.0001,0) [-3.2768000000000002|3.2766999999999991] "m/s²" Vector__XXX
+  SG_ AccelBias2 : 16|16@1- (0.0001,0) [-3.2768000000000002|3.2766999999999991] "m/s²" Vector__XXX
+  SG_ AccelBias3 : 32|16@1- (0.0001,0) [-3.2768000000000002|3.2766999999999991] "m/s²" Vector__XXX
+
+BO_ 1290 AccelBiasStdev: 8 Vector__XXX
+  SG_ AccelBias1Stdev : 0|16@1+ (1.0000000000000001e-005,0) [0|0.65534999999999988] "m/s²" Vector__XXX
+  SG_ AccelBias2Stdev : 16|16@1+ (1.0000000000000001e-005,0) [0|0.65534999999999988] "m/s²" Vector__XXX
+  SG_ AccelBias3Stdev : 32|16@1+ (1.0000000000000001e-005,0) [0|0.65534999999999988] "m/s²" Vector__XXX
+
+BO_ 1542 AccelLevel: 8 Vector__XXX
+  SG_ AccelDown : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+  SG_ AccelForward : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+  SG_ AccelLateral : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+  SG_ AccelSlip : 48|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+
+BO_ 1541 AccelVehicle: 6 Vector__XXX
+  SG_ AccelX : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+  SG_ AccelY : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+  SG_ AccelZ : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s²" Vector__XXX
+
+BO_ 1538 Altitude: 4 Vector__XXX
+  SG_ PosAlt : 0|32@1- (0.001,0) [-2147483.648|2147483.6469999999] "m" Vector__XXX
+
+BO_ 1551 AngAccelLevel: 6 Vector__XXX
+  SG_ AngAccelDown : 32|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+  SG_ AngAccelForward : 0|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+  SG_ AngAccelLateral : 16|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+
+BO_ 1550 AngAccelVehicle: 6 Vector__XXX
+  SG_ AngAccelX : 0|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+  SG_ AngAccelY : 16|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+  SG_ AngAccelZ : 32|16@1- (0.10000000000000001,0) [-3276.8000000000002|3276.6999999999998] "°/s²" Vector__XXX
+
+BO_ 1317 AngleOffsetHeading: 8 Vector__XXX
+  SG_ GnssAttNumObs : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ GnssPosNumObs : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ GnssVelNumObs : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ HeadingMisAlign : 0|16@1- (0.0057295779509999988,0) [-187.74681029999999|187.74108072000001] "°" Vector__XXX
+  SG_ HeadingMisAlignAcc : 16|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+
+BO_ 1285 AngleStdev: 8 Vector__XXX
+  SG_ AngleHeadingStdev : 0|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+  SG_ AnglePitchStdev : 16|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+  SG_ AngleRollStdev : 32|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+
+BO_ 1303 BnsStatus: 8 Vector__XXX
+  SG_ BnsLag : 0|16@1+ (0.01,0) [0|655.35000000000025] "s" Vector__XXX
+  SG_ GPSAttReject : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ GPSPosReject : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ GPSVelReject : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1536 DateTime: 8 Vector__XXX
+  SG_ TimeCentury : 8|8@1+ (1,0) [0|100] "cen" Vector__XXX
+  SG_ TimeDay : 24|8@1+ (1,0) [1|31] "day" Vector__XXX
+  SG_ TimeHSecond : 32|8@1+ (0.01,0) [0|1] "s" Vector__XXX
+  SG_ TimeHour : 56|8@1+ (1,0) [0|24] "hr" Vector__XXX
+  SG_ TimeMinute : 48|8@1+ (1,0) [0|60] "min" Vector__XXX
+  SG_ TimeMonth : 16|8@1+ (1,0) [1|12] "mo" Vector__XXX
+  SG_ TimeSecond : 40|8@1+ (1,0) [0|60] "s" Vector__XXX
+  SG_ TimeYear : 0|8@1+ (1,0) [0|100] "yr" Vector__XXX
+
+BO_ 1547 Distance: 8 Vector__XXX
+  SG_ Distance : 32|32@1+ (0.001,0) [0|4294967.2950000018] "m" Vector__XXX
+  SG_ DistanceWithHold : 0|32@1+ (0.001,0) [0|4294967.2950000018] "m" Vector__XXX
+
+BO_ 1295 GPSAntAngleStdev: 8 Vector__XXX
+  SG_ GpsAntHeadingStdev : 0|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+  SG_ GpsAntPitchStdev : 16|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+
+BO_ 1294 GPSAntStdev: 8 Vector__XXX
+  SG_ GpsAntXStdev : 0|16@1+ (0.0001,0) [0|6.5534999999999979] "m" Vector__XXX
+  SG_ GpsAntYStdev : 16|16@1+ (0.0001,0) [0|6.5534999999999979] "m" Vector__XXX
+  SG_ GpsAntZStdev : 32|16@1+ (0.0001,0) [0|6.5534999999999979] "m" Vector__XXX
+
+BO_ 1293 GpsAntAngles: 8 Vector__XXX
+  SG_ GpsAntHeading : 0|16@1- (0.0057295779999999999,0) [-187.7468103084|187.741080735] "°" Vector__XXX
+  SG_ GpsAntPitch : 16|16@1- (0.0057295779999999999,0) [-187.7468103084|187.741080735] "°" Vector__XXX
+
+BO_ 1292 GpsAntOffset: 8 Vector__XXX
+  SG_ GpsAntX : 0|16@1- (0.001,0) [-32.768000000000001|32.767000000000003] "m" Vector__XXX
+  SG_ GpsAntY : 16|16@1- (0.001,0) [-32.768000000000001|32.767000000000003] "m" Vector__XXX
+  SG_ GpsAntZ : 32|16@1- (0.001,0) [-32.768000000000001|32.767000000000003] "m" Vector__XXX
+
+BO_ 1300 GpsDiffAge: 8 Vector__XXX
+  SG_ GpsDiffAge : 0|16@1+ (0.01,0) [0|655.35000000000025] "s" Vector__XXX
+
+BO_ 1286 GyroBias: 8 Vector__XXX
+  SG_ GyroBias1 : 0|16@1- (0.00028647889759999992,0) [-9.387340515|9.3870540370000004] "°/s" Vector__XXX
+  SG_ GyroBias2 : 16|16@1- (0.00028647889759999992,0) [-9.387340515|9.3870540370000004] "°/s" Vector__XXX
+  SG_ GyroBias3 : 32|16@1- (0.00028647889759999992,0) [-9.387340515|9.3870540370000004] "°/s" Vector__XXX
+
+BO_ 1289 GyroBiasStdev: 8 Vector__XXX
+  SG_ GyroBias1Stdev : 0|16@1+ (5.7295779509999985e-005,0) [0|3.7548789102] "°/s" Vector__XXX
+  SG_ GyroBias2Stdev : 16|16@1+ (5.7295779509999985e-005,0) [0|3.7548789102] "°/s" Vector__XXX
+  SG_ GyroBias3Stdev : 32|16@1+ (5.7295779509999985e-005,0) [0|3.7548789102] "°/s" Vector__XXX
+
+BO_ 1288 GyroSf: 8 Vector__XXX
+  SG_ GyroSf1 : 0|16@1- (1,0) [-32768|32767] "ppm" Vector__XXX
+  SG_ GyroSf2 : 16|16@1- (1,0) [-32768|32767] "ppm" Vector__XXX
+  SG_ GyroSf3 : 32|16@1- (1,0) [-32768|32767] "ppm" Vector__XXX
+
+BO_ 1291 GyroSfStdev: 8 Vector__XXX
+  SG_ GyroSf1Stdev : 0|16@1+ (1,0) [0|65535.000000000029] "ppm" Vector__XXX
+  SG_ GyroSf2Stdev : 16|16@1+ (1,0) [0|65535.000000000029] "ppm" Vector__XXX
+  SG_ GyroSf3Stdev : 32|16@1+ (1,0) [0|65535.000000000029] "ppm" Vector__XXX
+
+BO_ 1322 HeadingLock: 8 Vector__XXX
+  SG_ HeadingLockAngleStdev : 16|16@1+ (0.00057295779509999986,0) [0|37.548789102000001] "°" Vector__XXX
+  SG_ HeadingLockDelay : 0|8@1+ (1,0) [0|255] "s" Vector__XXX
+  SG_ HeadingLockPeriod : 8|8@1+ (0.10000000000000001,0) [0|25.5] "s" Vector__XXX
+  SG_ HeadingModeAttExternal : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ HeadingModeAttInternal : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ HeadingModeRawInternal : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ HeadingModeValid : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ StationaryDelay : 32|8@1+ (1,0) [0|255] "s" Vector__XXX
+  SG_ StationarySpeed : 40|8@1+ (0.01,0) [0|2.549999999999998] "m/s" Vector__XXX
+
+BO_ 1543 HeadingPitchRoll: 6 Vector__XXX
+  SG_ AngleHeading : 0|16@1+ (0.01,0) [0|655.35000000000025] "°" Vector__XXX
+  SG_ AnglePitch : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°" Vector__XXX
+  SG_ AngleRoll : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°" Vector__XXX
+
+BO_ 1537 LatitudeLongitude: 8 Vector__XXX
+  SG_ PosLat : 0|32@1- (1,0) [-214.74836479999999|214.7483647] "°" Vector__XXX
+  SG_ PosLon : 32|32@1- (1,0) [-214.74836479999999|214.7483647] "°" Vector__XXX
+
+BO_ 1346 LocalRef1: 8 Vector__XXX
+  SG_ RefLat : 0|32@1- (1,0) [-214.74836479999999|214.7483647] "°" Vector__XXX
+  SG_ RefLon : 32|32@1- (1,0) [-214.74836479999999|214.7483647] "°" Vector__XXX
+
+BO_ 1347 LocalRef2: 8 Vector__XXX
+  SG_ RefAlt : 0|32@1- (0.001,0) [-2147483.648|2147483.6469999999] "m" Vector__XXX
+  SG_ RefHeading : 32|32@1- (1,0) [-214.74836479999999|214.7483647] "°" Vector__XXX
+
+BO_ 1329 OmniStarTracking: 8 Vector__XXX
+  SG_ OmniSNR : 16|8@1+ (0.20000000000000001,0) [0|51] "dB" Vector__XXX
+  SG_ OmniSatFreq : 0|16@1+ (0.001,1520) [1520|1585.5350000000001] "MHz" Vector__XXX
+  SG_ OmniTrackTime : 24|8@1+ (1,0) [0|255] "s" Vector__XXX
+
+BO_ 1548 PosLocal: 8 Vector__XXX
+  SG_ PosLocalX : 0|32@1- (0.0001,0) [-214748.36480000001|214748.36470000001] "m" Vector__XXX
+  SG_ PosLocalY : 32|32@1- (0.0001,0) [-214748.36480000001|214748.36470000001] "m" Vector__XXX
+
+BO_ 1545 RateLevel: 6 Vector__XXX
+  SG_ AngRateDown : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+  SG_ AngRateForward : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+  SG_ AngRateLateral : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+
+BO_ 1544 RateVehicle: 6 Vector__XXX
+  SG_ AngRateX : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+  SG_ AngRateY : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+  SG_ AngRateZ : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°/s" Vector__XXX
+
+BO_ 1798 TargetAccelLevel: 8 RTRange
+  SG_ TargetAccelDown : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+  SG_ TargetAccelForward : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+  SG_ TargetAccelLateral : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+  SG_ TargetAccelSlip : 48|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+
+BO_ 1797 TargetAccelVehicle: 6 RTRange
+  SG_ TargetAccelX : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+  SG_ TargetAccelY : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+  SG_ TargetAccelZ : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s²" Vector__XXX
+
+BO_ 1794 TargetAltitude: 4 RTRange
+  SG_ TargetPosAlt : 0|32@1- (0.001,0) [-2147483.6475|2147483.6475] "m" Vector__XXX
+
+BO_ 1792 TargetDateTime: 8 RTRange
+  SG_ TargetTimeCentury : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ TargetTimeDay : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ TargetTimeHSecond : 32|8@1+ (0.01,0) [0|2.549999999999998] "s" Vector__XXX
+  SG_ TargetTimeHour : 56|8@1+ (1,0) [0|255] "hr" Vector__XXX
+  SG_ TargetTimeMinute : 48|8@1+ (1,0) [0|255] "min" Vector__XXX
+  SG_ TargetTimeMonth : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ TargetTimeSecond : 40|8@1+ (1,0) [0|255] "s" Vector__XXX
+  SG_ TargetTimeYear : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1799 TargetHeadingPitchRoll: 6 RTRange
+  SG_ TargetAngleHeading : 0|16@1+ (0.01,0) [0|655.35000000000025] "°" Vector__XXX
+  SG_ TargetAnglePitch : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°" Vector__XXX
+  SG_ TargetAngleRoll : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°" Vector__XXX
+
+BO_ 1793 TargetLatitudeLongitude: 8 RTRange
+  SG_ TargetPosLat : 0|32@1- (1,0) [0|0] "" Vector__XXX
+  SG_ TargetPosLon : 32|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1804 TargetPosLocal: 8 RTRange
+  SG_ TargetPosLocalX : 0|32@1- (0.0001,0) [-214748.36475000001|214748.36475000001] "m" Vector__XXX
+  SG_ TargetPosLocalY : 32|32@1- (0.0001,0) [-214748.36475000001|214748.36475000001] "m" Vector__XXX
+
+BO_ 1801 TargetRateLevel: 6 RTRange
+  SG_ TargetAngRateDown : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+  SG_ TargetAngRateForward : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+  SG_ TargetAngRateLateral : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+
+BO_ 1800 TargetRateVehicle: 6 RTRange
+  SG_ TargetAngRateX : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+  SG_ TargetAngRateY : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+  SG_ TargetAngRateZ : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°/s" Vector__XXX
+
+BO_ 1802 TargetTrackSlipCurvature: 8 RTRange
+  SG_ TargetAngleSlip : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°" Vector__XXX
+  SG_ TargetAngleTrack : 0|16@1+ (0.01,0) [0|655.35000000000025] "°" Vector__XXX
+  SG_ TargetCurvature : 32|16@1- (0.0001,0) [-3.2767499999999981|3.2767499999999981] "1/m" Vector__XXX
+
+BO_ 1805 TargetVelYawLocal: 8 RTRange
+  SG_ TargetAngleLocalTrack : 48|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°" Vector__XXX
+  SG_ TargetAngleLocalYaw : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "°" Vector__XXX
+  SG_ TargetVelLocalX : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+  SG_ TargetVelLocalY : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+
+BO_ 1795 TargetVelocity: 8 RTRange
+  SG_ TargetSpeed3D : 48|16@1+ (0.01,0) [0|655.35000000000025] "m/s" Vector__XXX
+  SG_ TargetVelDown : 32|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+  SG_ TargetVelEast : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+  SG_ TargetVelNorth : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+
+BO_ 1796 TargetVelocityLevel: 4 RTRange
+  SG_ TargetVelForward : 0|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+  SG_ TargetVelLateral : 16|16@1- (0.01,0) [-327.67500000000001|327.67500000000001] "m/s" Vector__XXX
+
+BO_ 1546 TrackSlipCurvature: 6 Vector__XXX
+  SG_ AngleSlip : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°" Vector__XXX
+  SG_ AngleTrack : 0|16@1+ (0.01,0) [0|655.35000000000025] "°" Vector__XXX
+  SG_ Curvature : 32|16@1- (0.0001,0) [-3.2768000000000002|3.2766999999999991] "1/m" Vector__XXX
+
+BO_ 1304 TrigInDown: 8 Vector__XXX
+  SG_ TrigInDown_CoarseGPSTime : 0|32@1+ (1,0) [0|4294967295] "minute" Vector__XXX
+  SG_ TrigInDown_FineGPSTime : 48|8@1- (0.0040000000000000001,0) [-0.51200000000000001|0.51200000000000001] "ms" Vector__XXX
+  SG_ TrigInDown_GPSTime : 32|16@1+ (0.001,0) [0|65.536000000000001] "s" Vector__XXX
+  SG_ TrigInDown_TriggerCount : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1323 TrigInUp: 8 Vector__XXX
+  SG_ TrigInUp_CoarseGPSTime : 0|32@1+ (1,0) [0|4294967295] "minute" Vector__XXX
+  SG_ TrigInUp_FineGPSTime : 48|8@1- (0.0040000000000000001,0) [-0.51200000000000001|0.51200000000000001] "ms" Vector__XXX
+  SG_ TrigInUp_GPSTime : 32|16@1+ (0.001,0) [0|65.536000000000001] "s" Vector__XXX
+  SG_ TrigUpDown_TriggerCount : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1328 UndulationDOP: 8 Vector__XXX
+  SG_ HDOP : 16|8@1+ (0.10000000000000001,0) [0|25.5] "" Vector__XXX
+  SG_ PDOP : 24|8@1+ (0.10000000000000001,0) [0|25.5] "" Vector__XXX
+  SG_ Undulation : 0|16@1- (0.0050000000000000001,0) [-163.84|163.83500000000001] "m" Vector__XXX
+
+BO_ 1284 VelNEDStdev: 8 Vector__XXX
+  SG_ VelDownStdev : 32|16@1+ (0.001,0) [0|65.534999999999997] "m/s" Vector__XXX
+  SG_ VelEastStdev : 16|16@1+ (0.001,0) [0|65.534999999999997] "m/s" Vector__XXX
+  SG_ VelNorthStdev : 0|16@1+ (0.001,0) [0|65.534999999999997] "m/s" Vector__XXX
+
+BO_ 1549 VelYawLocal: 8 Vector__XXX
+  SG_ AngleLocalTrack : 48|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°" Vector__XXX
+  SG_ AngleLocalYaw : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "°" Vector__XXX
+  SG_ VelLocalX : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+  SG_ VelLocalY : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+
+BO_ 1539 Velocity: 8 Vector__XXX
+  SG_ Speed2D : 48|16@1+ (0.01,0) [0|655.35000000000025] "m/s" Vector__XXX
+  SG_ VelDown : 32|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+  SG_ VelEast : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+  SG_ VelNorth : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+
+BO_ 1540 VelocityLevel: 4 Vector__XXX
+  SG_ VelForward : 0|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+  SG_ VelLateral : 16|16@1- (0.01,0) [-327.68000000000001|327.67000000000002] "m/s" Vector__XXX
+
+BO_ 1325 WheelSpeedStatus: 8 Vector__XXX
+  SG_ WSpeedChangeTime : 48|8@1+ (0.10000000000000001,0) [0|25.600000000000001] "s" Vector__XXX
+  SG_ WSpeedCount : 0|32@1+ (1,0) [0|4294967296] "" Vector__XXX
+  SG_ WSpeedGPSTime : 32|16@1+ (0.001,0) [0|65.536000000000001] "s" Vector__XXX
+
+CM_ BO_ 1287 "Accelerometer bias.";
+CM_ BO_ 1290 "Accelerometer bias accuracy.";
+CM_ BO_ 1542 "OxTS horizontal frame IMU acceleration.";
+CM_ BO_ 1541 "OxTS output frame IMU acceleration.";
+CM_ BO_ 1538 "Altitude.";
+CM_ BO_ 1551 "OxTS horizontal frame IMU angular acceleration.";
+CM_ BO_ 1550 "OxTS output frame IMU angular acceleration.";
+CM_ BO_ 1317 "Heading misalignment angle and number of satellites used in solutions.";
+CM_ BO_ 1285 "Orientation accuracy.";
+CM_ BO_ 1303 "System status and number of consecutive GNSS rejections.";
+CM_ BO_ 1536 "Date and time.";
+CM_ BO_ 1547 "Distance.";
+CM_ BO_ 1295 "Accuracy of the orientation of dual antenna systems.";
+CM_ BO_ 1294 "Accuracy of position of the primary GNSS antenna.";
+CM_ BO_ 1293 "Orientation estimate of dual antenna systems.";
+CM_ BO_ 1292 "Position estimate of the primary GNSS antenna.";
+CM_ BO_ 1300 "Differential corrections configuration.";
+CM_ BO_ 1286 "Gyroscope bias.";
+CM_ BO_ 1289 "Gyroscope bias accuracy.";
+CM_ BO_ 1288 "Gyroscope scale factor.";
+CM_ BO_ 1291 "Gyroscope scale factor accuracy.";
+CM_ BO_ 1322 "Heading lock options.";
+CM_ BO_ 1543 "OxTS orientation.";
+CM_ BO_ 1537 "Latitude and longitude.";
+CM_ BO_ 1346 "Local coordinate definition for latitude and longitude.";
+CM_ BO_ 1347 "Local coordinate definition for altitude and heading.";
+CM_ BO_ 1329 "OmniSTAR tracking information.";
+CM_ BO_ 1548 "Position in local co-ordinates.";
+CM_ BO_ 1545 "OxTS horizontal frame IMU angular rate.";
+CM_ BO_ 1544 "OxTS output frame IMU angular rate.";
+CM_ BO_ 1546 "Track, slip and curvature.";
+CM_ BO_ 1304 "Trigger 1 falling edge event timing.";
+CM_ BO_ 1323 "Trigger 1 rising edge event timing.";
+CM_ BO_ 1328 "Undulation and dilution of precision of GNSS.";
+CM_ BO_ 1284 "Velocity accuracy.";
+CM_ BO_ 1549 "Velocity and yaw angle in local co-ordinates.";
+CM_ BO_ 1539 "OxTS NED frame velocity.";
+CM_ BO_ 1540 "OxTS horizontal frame velocity.";
+CM_ BO_ 1325 "Wheel speed status.";
+CM_ SG_ 1287 AccelBias1 "X accelerometer bias.";
+CM_ SG_ 1290 AccelBias1Stdev "X accelerometer bias accuracy.";
+CM_ SG_ 1287 AccelBias2 "Y accelerometer bias.";
+CM_ SG_ 1290 AccelBias2Stdev "Y accelerometer bias accuracy.";
+CM_ SG_ 1287 AccelBias3 "Z accelerometer bias.";
+CM_ SG_ 1290 AccelBias3Stdev "Z accelerometer bias accuracy.";
+CM_ SG_ 1542 AccelDown "OxTS horizontal frame vertical (down) IMU acceleration.";
+CM_ SG_ 1542 AccelForward "OxTS horizontal frame longitudinal (forward) IMU acceleration.";
+CM_ SG_ 1542 AccelLateral "OxTS horizontal frame lateral (right) IMU acceleration.";
+CM_ SG_ 1542 AccelSlip "Slip rate.";
+CM_ SG_ 1541 AccelX "OxTS output frame longitudinal (forward) IMU acceleration.";
+CM_ SG_ 1541 AccelY "OxTS output frame lateral (right) IMU acceleration.";
+CM_ SG_ 1541 AccelZ "OxTS output frame vertical (down) IMU acceleration.";
+CM_ SG_ 1551 AngAccelDown "OxTS horizontal frame vertical (down) IMU angular acceleration.";
+CM_ SG_ 1551 AngAccelForward "OxTS horizontal frame longitudinal (forward) IMU angular acceleration.";
+CM_ SG_ 1551 AngAccelLateral "OxTS horizontal frame lateral (right) IMU angular acceleration.";
+CM_ SG_ 1550 AngAccelX "OxTS output frame longitudinal (forward) IMU angular acceleration.";
+CM_ SG_ 1550 AngAccelY "OxTS output frame lateral (right) IMU angular acceleration.";
+CM_ SG_ 1550 AngAccelZ "OxTS output frame vertical (down) IMU angular acceleration.";
+CM_ SG_ 1545 AngRateDown "OxTS horizontal frame vertical (down) IMU angular rate.";
+CM_ SG_ 1545 AngRateForward "OxTS horizontal frame longitudinal (forward) IMU angular rate.";
+CM_ SG_ 1545 AngRateLateral "OxTS horizontal frame lateral (right) IMU angular rate.";
+CM_ SG_ 1544 AngRateX "OxTS output frame longitudinal (forward) IMU angular rate.";
+CM_ SG_ 1544 AngRateY "OxTS output frame lateral (right) IMU angular rate.";
+CM_ SG_ 1544 AngRateZ "OxTS output frame vertical (down) IMU angular rate.";
+CM_ SG_ 1543 AngleHeading "Heading angle.";
+CM_ SG_ 1285 AngleHeadingStdev "Heading accuracy.";
+CM_ SG_ 1549 AngleLocalTrack "Track angle in local co-ordinates.";
+CM_ SG_ 1549 AngleLocalYaw "Yaw angle.";
+CM_ SG_ 1543 AnglePitch "Pitch angle.";
+CM_ SG_ 1285 AnglePitchStdev "Pitch accuracy.";
+CM_ SG_ 1543 AngleRoll "Roll angle.";
+CM_ SG_ 1285 AngleRollStdev "Roll accuracy.";
+CM_ SG_ 1546 AngleSlip "Slip angle.";
+CM_ SG_ 1546 AngleTrack "Track angle.";
+CM_ SG_ 1303 BnsLag "Blended navigation system lag.";
+CM_ SG_ 1546 Curvature "Curvature.";
+CM_ SG_ 1547 Distance "Horizontal distance without hold.";
+CM_ SG_ 1547 DistanceWithHold "Horizontal distance with hold.";
+CM_ SG_ 1303 GPSAttReject "Number of successive GNSS attitude updates rejected.";
+CM_ SG_ 1303 GPSPosReject "Number of successive GNSS position updates rejected.";
+CM_ SG_ 1303 GPSVelReject "Number of successive GNSS velocity updates rejected.";
+CM_ SG_ 1317 GnssAttNumObs "Number of satellites used in attitude solution.";
+CM_ SG_ 1317 GnssPosNumObs "Number of satellites used in position solution.";
+CM_ SG_ 1317 GnssVelNumObs "Number of satellites used in velocity solution.";
+CM_ SG_ 1293 GpsAntHeading "Secondary GNSS antenna relative heading.";
+CM_ SG_ 1295 GpsAntHeadingStdev "Secondary GNSS antenna relative heading accuracy.";
+CM_ SG_ 1293 GpsAntPitch "Secondary GNSS antenna relative pitch.";
+CM_ SG_ 1295 GpsAntPitchStdev "Secondary GNSS antenna relative pitch accuracy.";
+CM_ SG_ 1292 GpsAntX "Primary GNSS antenna position X offset.";
+CM_ SG_ 1294 GpsAntXStdev "Primary GNSS antenna position X offset accuracy.";
+CM_ SG_ 1292 GpsAntY "Primary GNSS antenna position Y offset.";
+CM_ SG_ 1294 GpsAntYStdev "Primary GNSS antenna position Y offset accuracy.";
+CM_ SG_ 1292 GpsAntZ "Primary GNSS antenna position Z offset.";
+CM_ SG_ 1294 GpsAntZStdev "Primary GNSS antenna position Z offset accuracy.";
+CM_ SG_ 1300 GpsDiffAge "Differential corrections age to GPS.";
+CM_ SG_ 1286 GyroBias1 "X gyroscope bias.";
+CM_ SG_ 1289 GyroBias1Stdev "X gyroscope bias accuracy.";
+CM_ SG_ 1286 GyroBias2 "Y gyroscope bias.";
+CM_ SG_ 1289 GyroBias2Stdev "Y gyroscope bias accuracy.";
+CM_ SG_ 1286 GyroBias3 "Z gyroscope bias.";
+CM_ SG_ 1289 GyroBias3Stdev "Z gyroscope bias accuracy.";
+CM_ SG_ 1288 GyroSf1 "X gyroscope scale factor deviation.";
+CM_ SG_ 1291 GyroSf1Stdev "X gyroscope scale factor deviation accuracy.";
+CM_ SG_ 1288 GyroSf2 "Y gyroscope scale factor deviation.";
+CM_ SG_ 1291 GyroSf2Stdev "Y gyroscope scale factor deviation accuracy.";
+CM_ SG_ 1288 GyroSf3 "Z gyroscope scale factor deviation.";
+CM_ SG_ 1291 GyroSf3Stdev "Z gyroscope scale factor deviation accuracy.";
+CM_ SG_ 1328 HDOP "Horizontal dilution of precision.";
+CM_ SG_ 1322 HeadingLockAngleStdev "Heading lock angle accuracy setting.";
+CM_ SG_ 1322 HeadingLockDelay "Heading lock delay setting.";
+CM_ SG_ 1322 HeadingLockPeriod "Heading lock period setting.";
+CM_ SG_ 1317 HeadingMisAlign "Estimated heading offset between unit and vehicle.";
+CM_ SG_ 1317 HeadingMisAlignAcc "Estimated accuracy of heading offset between unit and vehicle.";
+CM_ SG_ 1322 HeadingModeAttExternal "Heading mode option attitude external.";
+CM_ SG_ 1322 HeadingModeAttInternal "Heading mode option attitude internal.";
+CM_ SG_ 1322 HeadingModeRawInternal "Heading mode option raw internal.";
+CM_ SG_ 1322 HeadingModeValid "Heading mode valid.";
+CM_ SG_ 1329 OmniSNR "OmniSTAR signal to noise ratio.";
+CM_ SG_ 1329 OmniSatFreq "OmniSTAR frequency.";
+CM_ SG_ 1329 OmniTrackTime "OmniSTAR lock time.";
+CM_ SG_ 1328 PDOP "Positional dilution of precision.";
+CM_ SG_ 1538 PosAlt "Altitude.";
+CM_ SG_ 1537 PosLat "Latitude.";
+CM_ SG_ 1548 PosLocalX "Distance from origin along the x-axis.";
+CM_ SG_ 1548 PosLocalY "Distance from origin along the y-axis.";
+CM_ SG_ 1537 PosLon "Longitude.";
+CM_ SG_ 1347 RefAlt "Reference frame altitude.";
+CM_ SG_ 1347 RefHeading "Reference frame heading.";
+CM_ SG_ 1346 RefLat "Reference frame latitude.";
+CM_ SG_ 1346 RefLon "Reference frame longitude.";
+CM_ SG_ 1539 Speed2D "Horizontal speed.";
+CM_ SG_ 1322 StationaryDelay "Stationary delay setting.";
+CM_ SG_ 1322 StationarySpeed "Stationary speed setting.";
+CM_ SG_ 1536 TimeCentury "Century (e.g. '20' during year 2016).";
+CM_ SG_ 1536 TimeDay "Day.";
+CM_ SG_ 1536 TimeHSecond "Hundredths of current second.";
+CM_ SG_ 1536 TimeHour "Hours.";
+CM_ SG_ 1536 TimeMinute "Minutes.";
+CM_ SG_ 1536 TimeMonth "Month.";
+CM_ SG_ 1536 TimeSecond "Seconds.";
+CM_ SG_ 1536 TimeYear "Year within century (e.g. '16' during year 2016).";
+CM_ SG_ 1304 TrigInDown_CoarseGPSTime "Falling trigger GPS time in minutes.";
+CM_ SG_ 1304 TrigInDown_FineGPSTime "Falling trigger GPS milliseconds from current second.";
+CM_ SG_ 1304 TrigInDown_GPSTime "Falling trigger GPS time seconds from current minute.";
+CM_ SG_ 1304 TrigInDown_TriggerCount "Falling trigger count.";
+CM_ SG_ 1323 TrigInUp_CoarseGPSTime "Rising trigger GPS time in minutes.";
+CM_ SG_ 1323 TrigInUp_FineGPSTime "Rising trigger GPS milliseconds from current second.";
+CM_ SG_ 1323 TrigInUp_GPSTime "Rising trigger GPS time seconds from current minute.";
+CM_ SG_ 1323 TrigUpDown_TriggerCount "Rising trigger count.";
+CM_ SG_ 1328 Undulation "Difference between ellipsoidal altitude and geoidal altitude.";
+CM_ SG_ 1539 VelDown "OxTS NED frame vertical (down) velocity.";
+CM_ SG_ 1284 VelDownStdev "Down velocity accuracy.";
+CM_ SG_ 1539 VelEast "OxTS NED frame east velocity.";
+CM_ SG_ 1284 VelEastStdev "East velocity accuracy.";
+CM_ SG_ 1540 VelForward "OxTS horizontal frame longitudinal (forward) velocity.";
+CM_ SG_ 1540 VelLateral "OxTS horizontal frame lateral (right) velocity.";
+CM_ SG_ 1549 VelLocalX "Velocity along the x-axis.";
+CM_ SG_ 1549 VelLocalY "Velocity along the y-axis.";
+CM_ SG_ 1539 VelNorth "OxTS NED frame north velocity.";
+CM_ SG_ 1284 VelNorthStdev "North velocity accuracy.";
+CM_ SG_ 1325 WSpeedChangeTime "Time since last count.";
+CM_ SG_ 1325 WSpeedCount "Count at last wheel speed measurement.";
+CM_ SG_ 1325 WSpeedGPSTime "Time of last wheel speed measurement from current GPS minute.";
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 1287 0;
+BA_ "GenMsgSendType" BO_ 1287 1;
+BA_ "VFrameFormat" BO_ 1290 0;
+BA_ "GenMsgSendType" BO_ 1290 1;
+BA_ "VFrameFormat" BO_ 1542 0;
+BA_ "GenMsgSendType" BO_ 1542 1;
+BA_ "VFrameFormat" BO_ 1541 0;
+BA_ "GenMsgSendType" BO_ 1541 1;
+BA_ "VFrameFormat" BO_ 1538 0;
+BA_ "GenMsgSendType" BO_ 1538 1;
+BA_ "VFrameFormat" BO_ 1551 0;
+BA_ "GenMsgSendType" BO_ 1551 1;
+BA_ "VFrameFormat" BO_ 1550 0;
+BA_ "GenMsgSendType" BO_ 1550 1;
+BA_ "VFrameFormat" BO_ 1317 0;
+BA_ "GenMsgSendType" BO_ 1317 1;
+BA_ "VFrameFormat" BO_ 1285 0;
+BA_ "GenMsgSendType" BO_ 1285 1;
+BA_ "VFrameFormat" BO_ 1303 0;
+BA_ "GenMsgSendType" BO_ 1303 1;
+BA_ "VFrameFormat" BO_ 1536 0;
+BA_ "GenMsgSendType" BO_ 1536 1;
+BA_ "VFrameFormat" BO_ 1547 0;
+BA_ "GenMsgSendType" BO_ 1547 1;
+BA_ "VFrameFormat" BO_ 1295 0;
+BA_ "GenMsgSendType" BO_ 1295 1;
+BA_ "VFrameFormat" BO_ 1294 0;
+BA_ "GenMsgSendType" BO_ 1294 1;
+BA_ "VFrameFormat" BO_ 1293 0;
+BA_ "GenMsgSendType" BO_ 1293 1;
+BA_ "VFrameFormat" BO_ 1292 0;
+BA_ "GenMsgSendType" BO_ 1292 1;
+BA_ "VFrameFormat" BO_ 1300 0;
+BA_ "GenMsgSendType" BO_ 1300 1;
+BA_ "VFrameFormat" BO_ 1286 0;
+BA_ "GenMsgSendType" BO_ 1286 1;
+BA_ "VFrameFormat" BO_ 1289 0;
+BA_ "GenMsgSendType" BO_ 1289 1;
+BA_ "VFrameFormat" BO_ 1288 0;
+BA_ "GenMsgSendType" BO_ 1288 1;
+BA_ "VFrameFormat" BO_ 1291 0;
+BA_ "GenMsgSendType" BO_ 1291 1;
+BA_ "VFrameFormat" BO_ 1322 0;
+BA_ "GenMsgSendType" BO_ 1322 1;
+BA_ "VFrameFormat" BO_ 1543 0;
+BA_ "GenMsgSendType" BO_ 1543 1;
+BA_ "VFrameFormat" BO_ 1537 0;
+BA_ "GenMsgSendType" BO_ 1537 1;
+BA_ "VFrameFormat" BO_ 1346 0;
+BA_ "GenMsgSendType" BO_ 1346 1;
+BA_ "VFrameFormat" BO_ 1347 0;
+BA_ "GenMsgSendType" BO_ 1347 1;
+BA_ "VFrameFormat" BO_ 1329 0;
+BA_ "GenMsgSendType" BO_ 1329 1;
+BA_ "VFrameFormat" BO_ 1548 0;
+BA_ "GenMsgSendType" BO_ 1548 1;
+BA_ "VFrameFormat" BO_ 1545 0;
+BA_ "GenMsgSendType" BO_ 1545 1;
+BA_ "VFrameFormat" BO_ 1544 0;
+BA_ "GenMsgSendType" BO_ 1544 1;
+BA_ "VFrameFormat" BO_ 1798 0;
+BA_ "GenMsgSendType" BO_ 1798 1;
+BA_ "VFrameFormat" BO_ 1797 0;
+BA_ "GenMsgSendType" BO_ 1797 1;
+BA_ "VFrameFormat" BO_ 1794 0;
+BA_ "GenMsgSendType" BO_ 1794 1;
+BA_ "VFrameFormat" BO_ 1792 0;
+BA_ "GenMsgSendType" BO_ 1792 1;
+BA_ "VFrameFormat" BO_ 1799 0;
+BA_ "GenMsgSendType" BO_ 1799 1;
+BA_ "VFrameFormat" BO_ 1793 0;
+BA_ "GenMsgSendType" BO_ 1793 1;
+BA_ "VFrameFormat" BO_ 1804 0;
+BA_ "GenMsgSendType" BO_ 1804 1;
+BA_ "VFrameFormat" BO_ 1801 0;
+BA_ "GenMsgSendType" BO_ 1801 1;
+BA_ "VFrameFormat" BO_ 1800 0;
+BA_ "GenMsgSendType" BO_ 1800 1;
+BA_ "VFrameFormat" BO_ 1802 0;
+BA_ "GenMsgSendType" BO_ 1802 1;
+BA_ "VFrameFormat" BO_ 1805 0;
+BA_ "GenMsgSendType" BO_ 1805 1;
+BA_ "VFrameFormat" BO_ 1795 0;
+BA_ "GenMsgSendType" BO_ 1795 1;
+BA_ "VFrameFormat" BO_ 1796 0;
+BA_ "GenMsgSendType" BO_ 1796 1;
+BA_ "VFrameFormat" BO_ 1546 0;
+BA_ "GenMsgSendType" BO_ 1546 1;
+BA_ "VFrameFormat" BO_ 1304 0;
+BA_ "GenMsgSendType" BO_ 1304 1;
+BA_ "VFrameFormat" BO_ 1323 0;
+BA_ "GenMsgSendType" BO_ 1323 1;
+BA_ "VFrameFormat" BO_ 1328 0;
+BA_ "GenMsgSendType" BO_ 1328 1;
+BA_ "VFrameFormat" BO_ 1284 0;
+BA_ "GenMsgSendType" BO_ 1284 1;
+BA_ "VFrameFormat" BO_ 1549 0;
+BA_ "GenMsgSendType" BO_ 1549 1;
+BA_ "VFrameFormat" BO_ 1539 0;
+BA_ "GenMsgSendType" BO_ 1539 1;
+BA_ "VFrameFormat" BO_ 1540 0;
+BA_ "GenMsgSendType" BO_ 1540 1;
+BA_ "VFrameFormat" BO_ 1325 0;
+BA_ "GenMsgSendType" BO_ 1325 1;
+BA_ "GenSigStartValue" SG_ 1329 OmniSatFreq -1520000;

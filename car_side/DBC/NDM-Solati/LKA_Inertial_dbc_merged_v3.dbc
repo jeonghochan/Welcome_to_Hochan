@@ -1,0 +1,805 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: IL_INS
+
+
+BO_ 449 AccelVehicle: 8 IL_INS
+ SG_ AccelX : 23|16@0- (0.0024525,0) [-80.36352|80.3610675] "m/s^2"  IL_INS
+ SG_ AccelY : 7|16@0- (0.0024525,0) [-80.36352|80.3610675] "m/s^2"  IL_INS
+ SG_ AccelZ : 39|16@0- (0.0024525,0) [-80.36352|80.3610675] "m/s^2"  IL_INS
+
+BO_ 457 Altitude: 8 IL_INS
+ SG_ PosAlt : 7|32@0- (1,0) [-2147483648|2147483647] "mm"  IL_INS
+
+BO_ 458 DateTime: 8 IL_INS
+ SG_ GPS_Time_ms : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ GPS_Time_s : 7|32@0+ (1,0) [0|-1] "s"  IL_INS
+
+BO_ 451 HeadingPitchRoll: 8 IL_INS
+ SG_ AngleHeading : 7|16@0+ (0.01,0) [0|655.35] "0.01deg"  IL_INS
+ SG_ AnglePitch : 23|16@0- (0.01,0) [-327.68|327.67] "0.01deg"  IL_INS
+ SG_ AngleRoll : 39|16@0- (0.01,0) [-327.68|327.67] "0.01deg"  IL_INS
+
+BO_ 1894 LKA_Left_Lane_A: 8 Vector__XXX
+ SG_ Curvature : 24|16@1+ (9.765625e-07,-0.031999023438) [-0.02|0.02] "1/meter"  IL_INS
+ SG_ Curvature_Derivative : 40|16@1+ (3.7252902985e-09,-0.00012206658721) [-0.00012|0.00012] "1/meter^2"  IL_INS
+ SG_ Lane_Type : 0|4@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Model_Degree : 6|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Position : 8|16@1- (0.00390625,0) [-128|127] "meter"  IL_INS
+ SG_ Quality : 4|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Width_marking : 56|8@1+ (0.01,0) [0|2.5] "m"  IL_INS
+
+BO_ 1895 LKA_Left_Lane_B: 4 Vector__XXX
+ SG_ Heading_Angle : 0|16@1+ (0.0009765625,-31.999023438) [-0.357|0.357] "radians"  IL_INS
+ SG_ View_Range : 16|15@1+ (0.00390625,0) [0|127.99609375] "meter"  IL_INS
+ SG_ View_Range_Availability : 31|1@1+ (1,0) [0|0] ""  IL_INS
+
+BO_ 1896 LKA_Right_Lane_A: 8 Vector__XXX
+ SG_ Curvature : 24|16@1+ (9.765625e-07,-0.031999023438) [-0.02|0.02] "1/meter"  IL_INS
+ SG_ Curvature_Derivative : 40|16@1+ (3.7252902985e-09,-0.00012206658721) [-0.00012|0.00012] "1/meter^2"  IL_INS
+ SG_ Lane_Type : 0|4@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Model_Degree : 6|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Position : 8|16@1- (0.00390625,0) [-128|127] "meter"  IL_INS
+ SG_ Quality : 4|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Width_marking : 56|8@1+ (0.01,0) [0|2.55] "m"  IL_INS
+
+BO_ 1897 LKA_Right_Lane_B: 4 Vector__XXX
+ SG_ Heading_Angle : 0|16@1+ (0.0009765625,-31.999023438) [-0.357|0.357] "radians"  IL_INS
+ SG_ View_Range : 16|15@1+ (0.00390625,0) [0|127.99609375] "meter"  IL_INS
+ SG_ View_Range_Availability : 31|1@1+ (1,0) [0|0] ""  IL_INS
+
+BO_ 456 Latitude: 8 IL_INS
+ SG_ PosLat : 7|48@0- (1e-09,0) [-140737.48836|140737.48836] "1e-9deg"  IL_INS
+
+BO_ 455 Longitude: 8 IL_INS
+ SG_ PosLon : 7|48@0- (1e-09,0) [-140737.48836|140737.48836] "1e-9deg"  IL_INS
+
+BO_ 450 MagneticField: 8 IL_INS
+ SG_ MagFieldX : 23|16@0- (1,0) [-32768|32767] "10nT"  IL_INS
+ SG_ MagFieldY : 39|16@0- (1,0) [-32768|32767] "10nT"  IL_INS
+ SG_ MagFieldZ : 55|16@0- (1,0) [-32768|32767] "10nT"  IL_INS
+
+BO_ 1849 ObstacleDataA1: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1876 ObstacleDataA10: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1852 ObstacleDataA2: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1855 ObstacleDataA3: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1858 ObstacleDataA4: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1861 ObstacleDataA5: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1864 ObstacleDataA6: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1867 ObstacleDataA7: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1870 ObstacleDataA8: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1873 ObstacleDataA9: 8 Vector__XXX
+ SG_ BlinkerInfo : 34|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Cut_in_and_Out : 37|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleBrakeLights : 59|1@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleID : 0|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosX : 8|12@1+ (0.0625,0) [0|0] ""  IL_INS
+ SG_ ObstaclePosY : 24|10@1- (0.0625,0) [-32|31.9375] ""  IL_INS
+ SG_ ObstacleStatus : 56|3@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleType : 52|3@1+ (1,0) [0|7] ""  IL_INS
+ SG_ ObstacleValid : 62|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleVelX : 40|12@1- (1,0) [0|0] ""  IL_INS
+
+BO_ 1850 ObstacleDataB1: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1877 ObstacleDataB10: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1853 ObstacleDataB2: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1856 ObstacleDataB3: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1859 ObstacleDataB4: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1862 ObstacleDataB5: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1865 ObstacleDataB6: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1868 ObstacleDataB7: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1871 ObstacleDataB8: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1874 ObstacleDataB9: 8 Vector__XXX
+ SG_ ObstacleAge : 16|8@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLane : 24|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ ObstacleLegnth : 0|8@1+ (0.5,0) [0|0] ""  IL_INS
+ SG_ ObstacleWidth : 8|8@1+ (0.05,0) [0|0] ""  IL_INS
+
+BO_ 1851 ObstacleDataC1: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1878 ObstacleDataC10: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1854 ObstacleDataC2: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1857 ObstacleDataC3: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1860 ObstacleDataC4: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1863 ObstacleDataC5: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1866 ObstacleDataC6: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1869 ObstacleDataC7: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1872 ObstacleDataC8: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 1875 ObstacleDataC9: 8 Vector__XXX
+ SG_ ObstacleAngle : 48|16@1- (0.01,0) [0|0] ""  IL_INS
+ SG_ ObstacleAngleRate : 0|16@1- (0.01,0) [0|0] ""  IL_INS
+
+BO_ 448 RateVehicle: 8 IL_INS
+ SG_ AngRateX : 7|16@0- (0.02,0) [-655.36|655.34] "0.01deg/s"  IL_INS
+ SG_ AngRateY : 23|16@0- (0.02,0) [-655.36|655.34] "0.01deg/s"  IL_INS
+ SG_ AngRateZ : 39|16@0- (-0.02,0) [-655.36|655.34] "0.01deg/s"  IL_INS
+
+BO_ 2684354559 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Curvature : 0|16@1+ (9.765625e-07,-0.031999023438) [-0.02|0.02] "1/meter"  IL_INS
+ SG_ Curvature_Derivative : 0|16@1+ (3.7252902985e-09,-0.00012206658721) [-0.00012|0.00012] "1/meter^2"  IL_INS
+ SG_ Lane_Type : 0|4@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Lane_mark_width : 0|8@1+ (0.01,0) [0|2.5] "meter"  IL_INS
+ SG_ Model_Degree : 0|2@1+ (1,0) [0|0] ""  IL_INS
+ SG_ Position : 0|16@1- (0.00390625,0) [-128|127] "meter"  IL_INS
+ SG_ Quality : 0|2@1+ (1,0) [0|0] ""  IL_INS
+
+BO_ 452 VelocityEast: 8 IL_INS
+ SG_ VelEast : 7|32@0- (0.01,0) [-21474836.48|21474836.47] "0.01m/s"  IL_INS
+
+BO_ 453 VelocityNorth: 8 IL_INS
+ SG_ VelNorth : 7|32@0- (0.01,0) [-21474836.48|21474836.47] "0.01m/s"  IL_INS
+
+BO_ 454 VelocityUp: 8 IL_INS
+ SG_ VelUp : 7|32@0- (0.01,0) [-21474836.48|21474836.47] "0.01m/s"  IL_INS
+
+BO_ 460 GNSS_Info: 8 IL_INS
+ SG_ GNSS_Info_Time_Stamp : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ GNSS_Soln_Status : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ GPS_Time_Status : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ GNSS_Pos_Type : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SolnSVs : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+
+
+CM_ BO_ 449 "Acceleration data is scaled 2-bytes signed integers, in g*KA, 
+where scale factor KA depends on accelerometer range
+So acceleration resolution is 1/KA g.
+Time stamp is number of milliseconds in GPS reference time";
+CM_ BO_ 457 "Altitude data is scaled 4-bytes signed integer, in meters*1000. So Altitude data resolution is 0.001 meter.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 458 "The first part of this message contains integer part of GPS reference time in seconds. The second part contains fractional part of GPS reference time as number of milliseconds.";
+CM_ BO_ 451 "Heading data are scaled 2-bytes unsigned integers, in degrees*100.
+Pitch and roll data are scaled 2-bytes signed integers, in degrees*100.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 456 "Latitude data is scaled 6-bytes signed integer, in degrees*1e9. So latitude data resolution is 1e? degrees.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 455 "Longitude data is scaled 6-bytes signed integer, in degrees*1e9. So longitude data resolution is 1e? degrees.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ SG_ 1849 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1849 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1849 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1849 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1876 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1876 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1876 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1876 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1852 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1852 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1852 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1852 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1855 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1855 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1855 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1855 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1858 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1858 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1858 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1858 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1861 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1861 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1861 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1861 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1864 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1864 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1864 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1864 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1867 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1867 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1867 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1867 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1870 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1870 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1870 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1870 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ SG_ 1873 BlinkerInfo "0x0=unavailable
+0x1= off
+0x2= left
+0x3= right
+0x4=both";
+CM_ SG_ 1873 Cut_in_and_Out "0= undefined
+0x 1= in host lane
+0x2= out host lane
+0x3=Cut in
+0x4=Cut out";
+CM_ SG_ 1873 ObstacleStatus "0
+Undefined
+1
+Standing (never moved, back lights are on)
+2
+Stopped (movable)
+3
+Moving
+4
+Oncoming
+5
+Parked (never moved, back lights are off)
+6
+Unused";
+CM_ SG_ 1873 ObstacleType "000 . Vehicle
+001 . Truck
+010 . Bike
+011 . Ped
+100 . Bicycle
+101 . Unused
+110 . Unused
+111 . Unused";
+CM_ BO_ 2684354559 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ BO_ 452 "East velocity data is scaled 4-bytes signed integer, in (m/s)*100. So east velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 453 "North velocity data is scaled 4-bytes signed integer, in (m/s)*100. So north velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 454 "Vertical velocity data is scaled 4-bytes signed integer, in (m/s)*100. So vertical velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_  "DBName" "Cluster";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 449 0;
+BA_ "GenMsgSendType" BO_ 449 1;
+BA_ "VFrameFormat" BO_ 457 0;
+BA_ "GenMsgSendType" BO_ 457 1;
+BA_ "VFrameFormat" BO_ 458 0;
+BA_ "GenMsgSendType" BO_ 458 1;
+BA_ "VFrameFormat" BO_ 451 0;
+BA_ "GenMsgSendType" BO_ 451 1;
+BA_ "VFrameFormat" BO_ 1894 0;
+BA_ "GenMsgSendType" BO_ 1894 1;
+BA_ "GenSigStartValue" SG_ 1894 Curvature 32767.000001;
+BA_ "GenSigStartValue" SG_ 1894 Curvature_Derivative 32767;
+BA_ "VFrameFormat" BO_ 1895 0;
+BA_ "GenMsgSendType" BO_ 1895 1;
+BA_ "GenSigStartValue" SG_ 1895 Heading_Angle 32767;
+BA_ "VFrameFormat" BO_ 1896 0;
+BA_ "GenMsgSendType" BO_ 1896 1;
+BA_ "GenSigStartValue" SG_ 1896 Curvature 32767.000001;
+BA_ "GenSigStartValue" SG_ 1896 Curvature_Derivative 32767;
+BA_ "VFrameFormat" BO_ 1897 0;
+BA_ "GenMsgSendType" BO_ 1897 1;
+BA_ "GenSigStartValue" SG_ 1897 Heading_Angle 32767;
+BA_ "VFrameFormat" BO_ 456 0;
+BA_ "GenMsgSendType" BO_ 456 1;
+BA_ "VFrameFormat" BO_ 455 0;
+BA_ "GenMsgSendType" BO_ 455 1;
+BA_ "VFrameFormat" BO_ 450 0;
+BA_ "GenMsgSendType" BO_ 450 1;
+BA_ "VFrameFormat" BO_ 1849 0;
+BA_ "GenMsgSendType" BO_ 1849 1;
+BA_ "VFrameFormat" BO_ 1876 0;
+BA_ "GenMsgSendType" BO_ 1876 1;
+BA_ "VFrameFormat" BO_ 1852 0;
+BA_ "GenMsgSendType" BO_ 1852 1;
+BA_ "VFrameFormat" BO_ 1855 0;
+BA_ "GenMsgSendType" BO_ 1855 1;
+BA_ "VFrameFormat" BO_ 1858 0;
+BA_ "GenMsgSendType" BO_ 1858 1;
+BA_ "VFrameFormat" BO_ 1861 0;
+BA_ "GenMsgSendType" BO_ 1861 1;
+BA_ "VFrameFormat" BO_ 1864 0;
+BA_ "GenMsgSendType" BO_ 1864 1;
+BA_ "VFrameFormat" BO_ 1867 0;
+BA_ "GenMsgSendType" BO_ 1867 1;
+BA_ "VFrameFormat" BO_ 1870 0;
+BA_ "GenMsgSendType" BO_ 1870 1;
+BA_ "VFrameFormat" BO_ 1873 0;
+BA_ "GenMsgSendType" BO_ 1873 1;
+BA_ "VFrameFormat" BO_ 1850 0;
+BA_ "GenMsgSendType" BO_ 1850 1;
+BA_ "VFrameFormat" BO_ 1877 0;
+BA_ "GenMsgSendType" BO_ 1877 1;
+BA_ "VFrameFormat" BO_ 1853 0;
+BA_ "GenMsgSendType" BO_ 1853 1;
+BA_ "VFrameFormat" BO_ 1856 0;
+BA_ "GenMsgSendType" BO_ 1856 1;
+BA_ "VFrameFormat" BO_ 1859 0;
+BA_ "GenMsgSendType" BO_ 1859 1;
+BA_ "VFrameFormat" BO_ 1862 0;
+BA_ "GenMsgSendType" BO_ 1862 1;
+BA_ "VFrameFormat" BO_ 1865 0;
+BA_ "GenMsgSendType" BO_ 1865 1;
+BA_ "VFrameFormat" BO_ 1868 0;
+BA_ "GenMsgSendType" BO_ 1868 1;
+BA_ "VFrameFormat" BO_ 1871 0;
+BA_ "GenMsgSendType" BO_ 1871 1;
+BA_ "VFrameFormat" BO_ 1874 0;
+BA_ "GenMsgSendType" BO_ 1874 1;
+BA_ "VFrameFormat" BO_ 1851 0;
+BA_ "GenMsgSendType" BO_ 1851 1;
+BA_ "VFrameFormat" BO_ 1878 0;
+BA_ "GenMsgSendType" BO_ 1878 1;
+BA_ "VFrameFormat" BO_ 1854 0;
+BA_ "GenMsgSendType" BO_ 1854 1;
+BA_ "VFrameFormat" BO_ 1857 0;
+BA_ "GenMsgSendType" BO_ 1857 1;
+BA_ "VFrameFormat" BO_ 1860 0;
+BA_ "GenMsgSendType" BO_ 1860 1;
+BA_ "VFrameFormat" BO_ 1863 0;
+BA_ "GenMsgSendType" BO_ 1863 1;
+BA_ "VFrameFormat" BO_ 1866 0;
+BA_ "GenMsgSendType" BO_ 1866 1;
+BA_ "VFrameFormat" BO_ 1869 0;
+BA_ "GenMsgSendType" BO_ 1869 1;
+BA_ "VFrameFormat" BO_ 1872 0;
+BA_ "GenMsgSendType" BO_ 1872 1;
+BA_ "VFrameFormat" BO_ 1875 0;
+BA_ "GenMsgSendType" BO_ 1875 1;
+BA_ "VFrameFormat" BO_ 448 0;
+BA_ "GenMsgSendType" BO_ 448 1;
+BA_ "GenSigStartValue" SG_ 448 AngRateZ 0;
+BA_ "VFrameFormat" BO_ 2684354559 1;
+BA_ "GenMsgSendType" BO_ 2684354559 1;
+BA_ "GenSigStartValue" SG_ 2684354559 Curvature 32767.000001;
+BA_ "GenSigStartValue" SG_ 2684354559 Curvature_Derivative 32767;
+BA_ "VFrameFormat" BO_ 452 0;
+BA_ "GenMsgSendType" BO_ 452 1;
+BA_ "VFrameFormat" BO_ 453 0;
+BA_ "GenMsgSendType" BO_ 453 1;
+BA_ "VFrameFormat" BO_ 454 0;
+BA_ "GenMsgSendType" BO_ 454 1;
+

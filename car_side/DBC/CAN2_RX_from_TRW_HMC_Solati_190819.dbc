@@ -1,0 +1,1245 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ : ESR Instrumentation RADAR Vehicle __NEW__1
+
+BO_ 1894 LKA_Left_Lane_A: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Curvature_Derivative : 36|16@1- (4.0000000000000002e-009,0) [-0.00013107200000000001|0.000131068] "1/m2" Vector__XXX
+  SG_ Curvature : 20|16@1- (1,0) [0|0] "" Vector__XXX
+  SG_ Lane_Location_Type : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Lane_Type : 0|4@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ Position : 8|12@1- (0.01,0) [-20.48|20.469999999999999] "meters" Vector__XXX
+  SG_ Quaility : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1895 LKA_Left_Lane_B: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Heading_Angle : 0|10@1- (0.0009765625,0) [-0.35699999999999982|0.35699999999999982] "rad" Vector__XXX
+  SG_ Lane_Crossing : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Lane_View_Range_End : 14|10@1+ (0.5,0) [0|150] "meters" Vector__XXX
+  SG_ Lane_View_Range_Start : 29|8@1+ (0.5,0) [0|63.5] "meter" Vector__XXX
+  SG_ Lane_mark_color : 11|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Position_STD : 44|8@1+ (0.01,0) [0|2.549999999999998] "meters" Vector__XXX
+  SG_ TLC : 24|5@1+ (0.0625,0) [0|2] "seconds" Vector__XXX
+  SG_ Width_marking : 37|7@1+ (0.01,0) [0|0.80000000000000004] "meters" Vector__XXX
+
+BO_ 1900 LKA_Next_Left_Lane_A: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockIDA : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Curvature_Derivative : 36|16@1- (4.0000000000000002e-009,0) [-0.00013107200000000001|0.000131068] "1/m2" Vector__XXX
+  SG_ Curvature : 20|16@1- (1,0) [0|0] "" Vector__XXX
+  SG_ Lane_Location_Type : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Lane_Type : 0|4@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ Position : 8|12@1- (0.01,0) [-20.48|20.469999999999999] "meters" Vector__XXX
+  SG_ Quaility : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1901 LKA_Next_Left_Lane_B: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Heading_Angle : 0|10@1- (0.0009765625,0) [-0.35699999999999982|0.35699999999999982] "rad" Vector__XXX
+  SG_ Lane_Crossing : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Lane_View_Range_End : 14|10@1+ (0.5,0) [0|150] "meters" Vector__XXX
+  SG_ Lane_View_Range_Start : 29|8@1+ (0.5,0) [0|63.5] "meter" Vector__XXX
+  SG_ Lane_mark_color : 11|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Position_STD : 44|8@1+ (0.01,0) [0|2.549999999999998] "meters" Vector__XXX
+  SG_ TLC : 24|5@1+ (0.0625,0) [0|2] "seconds" Vector__XXX
+  SG_ Width_marking : 37|7@1+ (0.01,0) [0|0.80000000000000004] "meters" Vector__XXX
+
+BO_ 1902 LKA_Next_Right_Lane_A: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Curvature_Derivative : 36|16@1- (4.0000000000000002e-009,0) [-0.00013107200000000001|0.000131068] "1/m2" Vector__XXX
+  SG_ Curvature : 20|16@1- (1,0) [0|0] "" Vector__XXX
+  SG_ Lane_Location_Type : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Lane_Type : 0|4@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ Position : 8|12@1- (0.01,0) [-20.48|20.469999999999999] "meters" Vector__XXX
+  SG_ Quaility : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1903 LKA_Next_Right_Lane_B: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Heading_Angle : 0|10@1- (0.0009765625,0) [-0.35699999999999982|0.35699999999999982] "rad" Vector__XXX
+  SG_ Lane_Crossing : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Lane_View_Range_End : 14|10@1+ (0.5,0) [0|150] "meters" Vector__XXX
+  SG_ Lane_View_Range_Start : 29|8@1+ (0.5,0) [0|63.5] "meter" Vector__XXX
+  SG_ Lane_mark_color : 11|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Position_STD : 44|8@1+ (0.01,0) [0|2.549999999999998] "meters" Vector__XXX
+  SG_ TLC : 24|5@1+ (0.0625,0) [0|2] "seconds" Vector__XXX
+  SG_ Width_marking : 37|7@1+ (0.01,0) [0|0.80000000000000004] "meters" Vector__XXX
+
+BO_ 1896 LKA_Right_Lane_A: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Curvature_Derivative : 36|16@1- (4.0000000000000002e-009,0) [-0.00013107200000000001|0.000131068] "1/m2" Vector__XXX
+  SG_ Curvature : 20|16@1- (1,0) [0|0] "" Vector__XXX
+  SG_ Lane_Location_Type : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Lane_Type : 0|4@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ Position : 8|12@1- (0.01,0) [-20.48|20.469999999999999] "meters" Vector__XXX
+  SG_ Quaility : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1897 LKA_Right_Lane_B: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Heading_Angle : 0|10@1- (0.0009765625,0) [-0.35699999999999982|0.35699999999999982] "rad" Vector__XXX
+  SG_ Lane_Crossing : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Lane_View_Range_End : 14|10@1+ (0.5,0) [0|150] "meters" Vector__XXX
+  SG_ Lane_View_Range_Start : 29|8@1+ (0.5,0) [0|63.5] "meter" Vector__XXX
+  SG_ Lane_mark_color : 11|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Position_STD : 44|8@1+ (0.01,0) [0|2.549999999999998] "meters" Vector__XXX
+  SG_ TLC : 24|5@1+ (0.0625,0) [0|2] "seconds" Vector__XXX
+  SG_ Width_marking : 37|7@1+ (0.01,0) [0|0.80000000000000004] "meters" Vector__XXX
+
+BO_ 1849 ObstacleDataA1: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1876 ObstacleDataA10: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1852 ObstacleDataA2: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1855 ObstacleDataA3: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1858 ObstacleDataA4: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1861 ObstacleDataA5: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1864 ObstacleDataA6: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1867 ObstacleDataA7: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1870 ObstacleDataA8: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1873 ObstacleDataA9: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ LongitudinalDistanceSTD : 32|8@1+ (0.10000000000000001,0) [0|25.5] "meter" Vector__XXX
+  SG_ ObstacleID : 0|6@1+ (1,0) [0|63] "" Vector__XXX
+  SG_ ObstacleMeasured : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstaclePosX : 8|12@1+ (0.050000000000000003,0) [0|204.75] "meters" Vector__XXX
+  SG_ ObstaclePosY : 20|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meters" Vector__XXX
+  SG_ ObstacleValid : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleVelX : 40|12@1- (0.050000000000000003,0) [-102.40000000000001|102.34999999999999] "meter/sec" Vector__XXX
+
+BO_ 1850 ObstacleDataB1: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1877 ObstacleDataB10: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1853 ObstacleDataB2: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1856 ObstacleDataB3: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1859 ObstacleDataB4: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1862 ObstacleDataB5: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1865 ObstacleDataB6: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1868 ObstacleDataB7: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1871 ObstacleDataB8: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1874 ObstacleDataB9: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlinkerInfo : 32|3@1+ (1,0) [0|4] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CIPVFlag : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Cut_in_and_Out : 35|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Inverse_TTC : 16|10@1- (0.015625,0) [-8|7.9375] "1/s" Vector__XXX
+  SG_ ObstacleBrakeLights : 30|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ ObstacleLane : 40|3@1+ (1,0) [0|5] "" Vector__XXX
+  SG_ ObstacleStatus : 26|4@1+ (1,0) [0|8] "" Vector__XXX
+  SG_ ObstacleType : 48|3@1+ (1,0) [0|6] "" Vector__XXX
+  SG_ ObstacleWidth : 0|7@1+ (0.050000000000000003,0) [0|6.349999999999997] "" Vector__XXX
+
+BO_ 1851 ObstacleDataC1: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1878 ObstacleDataC10: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1854 ObstacleDataC2: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1857 ObstacleDataC3: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1860 ObstacleDataC4: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1863 ObstacleDataC5: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1866 ObstacleDataC6: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1869 ObstacleDataC7: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1872 ObstacleDataC8: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight : 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1875 ObstacleDataC9: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ AngleSTD : 44|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ ObstacleAngleLeft : 31|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ ObstacleAngleRate : 0|8@1- (0.002,0) [-0.25600000000000001|0.255] "Rad/s" Vector__XXX
+  SG_ ObstacleAngleRight: 18|13@1- (0.00020000000000000001,0) [-0.81920000000000004|0.81899999999999995] "Radian" Vector__XXX
+  SG_ Obstacle_Accel_X : 8|9@1- (0.050000000000000003,0) [-12.800000000000001|12.75] "meter/s2" Vector__XXX
+  SG_ ObstracleReplaced : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1879 ObstacleDataD1: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1888 ObstacleDataD10: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1880 ObstacleDataD2: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1881 ObstacleDataD3: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1882 ObstacleDataD4: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1883 ObstacleDataD5: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal: 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1884 ObstacleDataD6: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1885 ObstacleDataD7: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1886 ObstacleDataD8: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1887 ObstacleDataD9: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Angle_Rate_STD : 8|8@1+ (0.00020000000000000001,0) [0|0.050999999999999983] "Rad/s" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Inverse_TTC_STD : 0|8@1+ (0.01,0) [0|2.549999999999998] "1/s" Vector__XXX
+  SG_ ObstacleAge : 39|11@1+ (1,0) [0|2047] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeftVal : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleLeft : 16|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRightVal : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ObstacleEgoLaneAngleRight : 29|9@1+ (0.001024655138156999,-0.26179938779914902) [-0.26179938779914902|0.26179938779914902] "Radian" Vector__XXX
+
+BO_ 1848 ObstacleStatus: 8 Vector__XXX
+  SG_ Alivecounter_Obs_Msg_1 : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Autofix_OutOfCal : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BlockID_Obs_Msg_1 : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Blur_Image : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ CIPV_FCV : 14|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ Checksum_Obs_Msg_1 : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Close_Car : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ FCW_AEB_Act_Byte : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ Foggy_Spot : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Frozen_WindShield : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Full_Blockage : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ LeftCloseRangeCutIn : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Low_Sun : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ NumObstacles : 0|5@1+ (1,0) [0|20] "" Vector__XXX
+  SG_ Out_Of_Focus : 37|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ PED_FCV : 12|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ Partial_Blockage : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ RightCloseRangeCutIn : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ RoadSpray : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Self_Glare : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SensorFusion_AEB_Full : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SensorFusion_AEB_Ped_Act : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SensorFusion_AEB_Veh_Act : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SensorFusion_FCW_Ped_Act : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SensorFusion_FCW_Veh_Act : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Severe_Horizon : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Severe_Yaw : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Smeared_Spots : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ SunRay : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ VO_AEB_FCW : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ VO_AEB_Veh_Act : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ VO_AEB_Veh_DBS : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ VO_AEB_Veh_FCW : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ VO_AEB_Veh_pre_FCW : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1906 Obstaclestatus_2: 8 Vector__XXX
+  SG_ Alivecounter_Obs_Msg_2 : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Autofix_Horizon_Out_of_calib : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Autofix_OutOfCal : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Autofix_Yaw_Out_of_calib : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Basic_pitch_axis_misalignment : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Basic_yaw_axis_misalignment : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Blurred_Image_Night : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Blurred_image : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Camera_out_of_focus : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Checksum_Ob_Msg_2 : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Foggy_lights_Night_Fog : 30|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Frozen_Windshield : 28|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Full_Blockage : 26|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ High_Temperature : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Low_Sun : 18|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ OverlapOver50Percent : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ PED_LowIllumination_decision : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Partial_Blockage : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Partial_Blockage_night : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Reserved_Obs_Msg_2_1 : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Reserved_Obs_msg_2 : 40|12@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Road_Spray : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Self_Glare_Night_Fog : 32|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Severe_pitch_axis_misalignment : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Severe_yaw_axis_misalignment : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Smeared_Spots : 20|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Sun_Ray : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1899 Road_Information: 8 Vector__XXX
+  SG_ Alivecounter : 52|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ BlockID : 56|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ CameraFaulty : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ CameraFaulty_Detail : 16|8@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ CameraPos_X : 24|9@1- (1,0) [-255|255] "cm" Vector__XXX
+  SG_ CameraPos_Y : 33|9@1- (1,0) [-255|255] "cm" Vector__XXX
+  SG_ CameraPos_Z : 42|9@1- (1,0) [-255|255] "cm" Vector__XXX
+  SG_ Checksum : 60|4@1+ (1,0) [0|15] "" Vector__XXX
+  SG_ Highway_Exit : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+  SG_ Highway_Flag : 4|2@1+ (1,0) [0|2] "" Vector__XXX
+  SG_ Lanes_Off : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Num_Of_Next_Lane_Mark_Reported : 0|3@1+ (1,0) [0|4] "" Vector__XXX
+
+CM_ SG_ 1849 Alivecounter "Message Alive Counter";
+CM_ SG_ 1852 Alivecounter "Message Alive Counter";
+CM_ SG_ 1855 Alivecounter "Message Alive Counter";
+CM_ SG_ 1858 Alivecounter "Message Alive Counter";
+CM_ SG_ 1861 Alivecounter "Message Alive Counter";
+CM_ SG_ 1864 Alivecounter "Message Alive Counter";
+CM_ SG_ 1867 Alivecounter "Message Alive Counter";
+CM_ SG_ 1870 Alivecounter "Message Alive Counter";
+CM_ SG_ 1873 Alivecounter "Message Alive Counter";
+CM_ SG_ 1876 Alivecounter "Message Alive Counter";
+CM_ SG_ 1850 Alivecounter "Message Alive Counter";
+CM_ SG_ 1853 Alivecounter "Message Alive Counter";
+CM_ SG_ 1856 Alivecounter "Message Alive Counter";
+CM_ SG_ 1859 Alivecounter "Message Alive Counter";
+CM_ SG_ 1862 Alivecounter "Message Alive Counter";
+CM_ SG_ 1865 Alivecounter "Message Alive Counter";
+CM_ SG_ 1868 Alivecounter "Message Alive Counter";
+CM_ SG_ 1871 Alivecounter "Message Alive Counter";
+CM_ SG_ 1874 Alivecounter "Message Alive Counter";
+CM_ SG_ 1877 Alivecounter "Message Alive Counter";
+CM_ SG_ 1851 Alivecounter "Message Alive Counter";
+CM_ SG_ 1854 Alivecounter "Message Alive Counter";
+CM_ SG_ 1857 Alivecounter "Message Alive Counter";
+CM_ SG_ 1860 Alivecounter "Message Alive Counter";
+CM_ SG_ 1863 Alivecounter "Message Alive Counter";
+CM_ SG_ 1866 Alivecounter "Message Alive Counter";
+CM_ SG_ 1869 Alivecounter "Message Alive Counter";
+CM_ SG_ 1872 Alivecounter "Message Alive Counter";
+CM_ SG_ 1875 Alivecounter "Message Alive Counter";
+CM_ SG_ 1878 Alivecounter "Message Alive Counter";
+CM_ SG_ 1851 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1854 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1857 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1860 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1863 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1866 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1869 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1872 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1875 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1878 AngleSTD "proportional to std of mid-point of obstacle in pixel coordinates";
+CM_ SG_ 1850 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1853 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1856 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1859 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1862 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1865 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1868 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1871 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1874 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1877 BlinkerInfo "Turn_Indicator";
+CM_ SG_ 1849 BlockID "Block ID Counter";
+CM_ SG_ 1852 BlockID "Block ID Counter";
+CM_ SG_ 1855 BlockID "Block ID Counter";
+CM_ SG_ 1858 BlockID "Block ID Counter";
+CM_ SG_ 1861 BlockID "Block ID Counter";
+CM_ SG_ 1864 BlockID "Block ID Counter";
+CM_ SG_ 1867 BlockID "Block ID Counter";
+CM_ SG_ 1870 BlockID "Block ID Counter";
+CM_ SG_ 1873 BlockID "Block ID Counter";
+CM_ SG_ 1876 BlockID "Block ID Counter";
+CM_ SG_ 1850 BlockID "Block ID Counter";
+CM_ SG_ 1853 BlockID "Block ID Counter";
+CM_ SG_ 1856 BlockID "Block ID Counter";
+CM_ SG_ 1859 BlockID "Block ID Counter";
+CM_ SG_ 1862 BlockID "Block ID Counter";
+CM_ SG_ 1865 BlockID "Block ID Counter";
+CM_ SG_ 1868 BlockID "Block ID Counter";
+CM_ SG_ 1871 BlockID "Block ID Counter";
+CM_ SG_ 1874 BlockID "Block ID Counter";
+CM_ SG_ 1877 BlockID "Block ID Counter";
+CM_ SG_ 1851 BlockID "Block ID Counter";
+CM_ SG_ 1854 BlockID "Block ID Counter";
+CM_ SG_ 1857 BlockID "Block ID Counter";
+CM_ SG_ 1860 BlockID "Block ID Counter";
+CM_ SG_ 1863 BlockID "Block ID Counter";
+CM_ SG_ 1866 BlockID "Block ID Counter";
+CM_ SG_ 1869 BlockID "Block ID Counter";
+CM_ SG_ 1872 BlockID "Block ID Counter";
+CM_ SG_ 1875 BlockID "Block ID Counter";
+CM_ SG_ 1878 BlockID "Block ID Counter";
+CM_ SG_ 1850 CIPVFlag "ID_CIPV";
+CM_ SG_ 1853 CIPVFlag "ID_CIPV";
+CM_ SG_ 1856 CIPVFlag "ID_CIPV";
+CM_ SG_ 1859 CIPVFlag "ID_CIPV";
+CM_ SG_ 1862 CIPVFlag "ID_CIPV";
+CM_ SG_ 1865 CIPVFlag "ID_CIPV";
+CM_ SG_ 1868 CIPVFlag "ID_CIPV";
+CM_ SG_ 1871 CIPVFlag "ID_CIPV";
+CM_ SG_ 1874 CIPVFlag "ID_CIPV";
+CM_ SG_ 1877 CIPVFlag "ID_CIPV";
+CM_ SG_ 1849 Checksum "Check Sum";
+CM_ SG_ 1852 Checksum "Check Sum";
+CM_ SG_ 1855 Checksum "Check Sum";
+CM_ SG_ 1858 Checksum "Check Sum";
+CM_ SG_ 1861 Checksum "Check Sum";
+CM_ SG_ 1864 Checksum "Check Sum";
+CM_ SG_ 1867 Checksum "Check Sum";
+CM_ SG_ 1870 Checksum "Check Sum";
+CM_ SG_ 1873 Checksum "Check Sum";
+CM_ SG_ 1876 Checksum "Check Sum";
+CM_ SG_ 1850 Checksum "Check Sum";
+CM_ SG_ 1853 Checksum "Check Sum";
+CM_ SG_ 1856 Checksum "Check Sum";
+CM_ SG_ 1859 Checksum "Check Sum";
+CM_ SG_ 1862 Checksum "Check Sum";
+CM_ SG_ 1865 Checksum "Check Sum";
+CM_ SG_ 1868 Checksum "Check Sum";
+CM_ SG_ 1871 Checksum "Check Sum";
+CM_ SG_ 1874 Checksum "Check Sum";
+CM_ SG_ 1877 Checksum "Check Sum";
+CM_ SG_ 1851 Checksum "Check Sum";
+CM_ SG_ 1854 Checksum "Check Sum";
+CM_ SG_ 1857 Checksum "Check Sum";
+CM_ SG_ 1860 Checksum "Check Sum";
+CM_ SG_ 1863 Checksum "Check Sum";
+CM_ SG_ 1866 Checksum "Check Sum";
+CM_ SG_ 1869 Checksum "Check Sum";
+CM_ SG_ 1872 Checksum "Check Sum";
+CM_ SG_ 1875 Checksum "Check Sum";
+CM_ SG_ 1878 Checksum "Check Sum";
+CM_ SG_ 1848 Close_Car "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1894 Curvature_Derivative "C3";
+CM_ SG_ 1900 Curvature_Derivative "C3";
+CM_ SG_ 1896 Curvature_Derivative "C3";
+CM_ SG_ 1902 Curvature_Derivative "C3";
+CM_ SG_ 1894 Curvature "C2";
+CM_ SG_ 1900 Curvature "C2";
+CM_ SG_ 1896 Curvature "C2";
+CM_ SG_ 1902 Curvature "C2";
+CM_ SG_ 1850 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1853 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1856 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1859 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1862 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1865 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1868 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1871 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1874 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1877 Cut_in_and_Out "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1895 Heading_Angle "C1";
+CM_ SG_ 1901 Heading_Angle "C1";
+CM_ SG_ 1897 Heading_Angle "C1";
+CM_ SG_ 1903 Heading_Angle "C1";
+CM_ SG_ 1899 Highway_Exit "HWE";
+CM_ SG_ 1899 Highway_Flag "Road_Type";
+CM_ SG_ 1850 Inverse_TTC "positive for closing in";
+CM_ SG_ 1853 Inverse_TTC "positive for closing in";
+CM_ SG_ 1856 Inverse_TTC "positive for closing in";
+CM_ SG_ 1859 Inverse_TTC "positive for closing in";
+CM_ SG_ 1862 Inverse_TTC "positive for closing in";
+CM_ SG_ 1865 Inverse_TTC "positive for closing in";
+CM_ SG_ 1868 Inverse_TTC "positive for closing in";
+CM_ SG_ 1871 Inverse_TTC "positive for closing in";
+CM_ SG_ 1874 Inverse_TTC "positive for closing in";
+CM_ SG_ 1877 Inverse_TTC "positive for closing in";
+CM_ SG_ 1895 Lane_Crossing "Lane_Crossing";
+CM_ SG_ 1901 Lane_Crossing "Lane_Crossing";
+CM_ SG_ 1897 Lane_Crossing "Lane_Crossing";
+CM_ SG_ 1903 Lane_Crossing "Lane_Crossing";
+CM_ SG_ 1894 Lane_Type "Lane_Mark_Type";
+CM_ SG_ 1900 Lane_Type "Lane_Mark_Type";
+CM_ SG_ 1896 Lane_Type "Lane_Mark_Type";
+CM_ SG_ 1902 Lane_Type "Lane_Mark_Type";
+CM_ SG_ 1895 Lane_View_Range_End "Lane_View_Range_End";
+CM_ SG_ 1901 Lane_View_Range_End "Lane_View_Range_End";
+CM_ SG_ 1897 Lane_View_Range_End "Lane_View_Range_End";
+CM_ SG_ 1903 Lane_View_Range_End "Lane_View_Range_End";
+CM_ SG_ 1895 Lane_mark_color "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1901 Lane_mark_color "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1897 Lane_mark_color "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1903 Lane_mark_color "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1899 Lanes_Off "LDW_RTA";
+CM_ SG_ 1848 LeftCloseRangeCutIn "Left_Close_Range_Cut_In";
+CM_ SG_ 1849 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1852 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1855 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1858 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1861 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1864 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1867 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1870 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1873 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1876 LongitudinalDistanceSTD "x standard deviation";
+CM_ SG_ 1848 NumObstacles "Number_Of_Video_Objects";
+CM_ SG_ 1899 Num_Of_Next_Lane_Mark_Reported "Number_Of_Lanes";
+CM_ SG_ 1879 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1880 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1881 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1882 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1883 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1884 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1885 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1886 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1887 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1888 ObstacleAge "Not available in UART now - 13 Jan 2014";
+CM_ SG_ 1851 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1854 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1857 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1860 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1863 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1866 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1869 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1872 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1875 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1878 ObstacleAngleLeft "Angle_Left";
+CM_ SG_ 1851 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1854 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1857 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1860 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1863 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1866 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1869 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1872 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1875 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1878 ObstacleAngleRate "Angle_Rate_Mean";
+CM_ SG_ 1851 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1854 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1857 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1860 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1863 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1866 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1869 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1872 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1875 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1878 ObstacleAngleRight "Angle_Right";
+CM_ SG_ 1850 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1853 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1856 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1859 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1862 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1865 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1868 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1871 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1874 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1877 ObstacleBrakeLights "Brake_Light";
+CM_ SG_ 1849 ObstacleID "ID";
+CM_ SG_ 1852 ObstacleID "ID";
+CM_ SG_ 1855 ObstacleID "ID";
+CM_ SG_ 1858 ObstacleID "ID";
+CM_ SG_ 1861 ObstacleID "ID";
+CM_ SG_ 1864 ObstacleID "ID";
+CM_ SG_ 1867 ObstacleID "ID";
+CM_ SG_ 1870 ObstacleID "ID";
+CM_ SG_ 1873 ObstacleID "ID";
+CM_ SG_ 1876 ObstacleID "ID";
+CM_ SG_ 1850 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1853 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1856 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1859 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1862 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1865 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1868 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1871 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1874 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1877 ObstacleLane "Lane_Assignment";
+CM_ SG_ 1849 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1852 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1855 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1858 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1861 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1864 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1867 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1870 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1873 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1876 ObstacleMeasured "Measured Bit";
+CM_ SG_ 1849 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1852 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1855 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1858 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1861 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1864 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1867 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1870 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1873 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1876 ObstaclePosX "Longitudial_Distance";
+CM_ SG_ 1849 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1852 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1855 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1858 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1861 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1864 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1867 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1870 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1873 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1876 ObstaclePosY "Lateral_Distance";
+CM_ SG_ 1850 ObstacleStatus "Motion_Status";
+CM_ SG_ 1853 ObstacleStatus "Motion_Status";
+CM_ SG_ 1856 ObstacleStatus "Motion_Status";
+CM_ SG_ 1859 ObstacleStatus "Motion_Status";
+CM_ SG_ 1862 ObstacleStatus "Motion_Status";
+CM_ SG_ 1865 ObstacleStatus "Motion_Status";
+CM_ SG_ 1868 ObstacleStatus "Motion_Status";
+CM_ SG_ 1871 ObstacleStatus "Motion_Status";
+CM_ SG_ 1874 ObstacleStatus "Motion_Status";
+CM_ SG_ 1877 ObstacleStatus "Motion_Status";
+CM_ SG_ 1850 ObstacleType "Object_Class";
+CM_ SG_ 1853 ObstacleType "Object_Class";
+CM_ SG_ 1856 ObstacleType "Object_Class";
+CM_ SG_ 1859 ObstacleType "Object_Class";
+CM_ SG_ 1862 ObstacleType "Object_Class";
+CM_ SG_ 1865 ObstacleType "Object_Class";
+CM_ SG_ 1868 ObstacleType "Object_Class";
+CM_ SG_ 1871 ObstacleType "Object_Class";
+CM_ SG_ 1874 ObstacleType "Object_Class";
+CM_ SG_ 1877 ObstacleType "Object_Class";
+CM_ SG_ 1849 ObstacleValid "Valid Bit";
+CM_ SG_ 1852 ObstacleValid "Valid Bit";
+CM_ SG_ 1855 ObstacleValid "Valid Bit";
+CM_ SG_ 1858 ObstacleValid "Valid Bit";
+CM_ SG_ 1861 ObstacleValid "Valid Bit";
+CM_ SG_ 1864 ObstacleValid "Valid Bit";
+CM_ SG_ 1867 ObstacleValid "Valid Bit";
+CM_ SG_ 1870 ObstacleValid "Valid Bit";
+CM_ SG_ 1873 ObstacleValid "Valid Bit";
+CM_ SG_ 1876 ObstacleValid "Valid Bit";
+CM_ SG_ 1849 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1852 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1855 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1858 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1861 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1864 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1867 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1870 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1873 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1876 ObstacleVelX "Relative_Velocity";
+CM_ SG_ 1850 ObstacleWidth "Width";
+CM_ SG_ 1853 ObstacleWidth "Width";
+CM_ SG_ 1856 ObstacleWidth "Width";
+CM_ SG_ 1859 ObstacleWidth "Width";
+CM_ SG_ 1862 ObstacleWidth "Width";
+CM_ SG_ 1865 ObstacleWidth "Width";
+CM_ SG_ 1868 ObstacleWidth "Width";
+CM_ SG_ 1871 ObstacleWidth "Width";
+CM_ SG_ 1874 ObstacleWidth "Width";
+CM_ SG_ 1877 ObstacleWidth "Width";
+CM_ SG_ 1851 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1854 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1857 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1860 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1863 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1866 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1869 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1872 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1875 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1878 Obstacle_Accel_X "Acceleration_Abs";
+CM_ SG_ 1894 Position "C0";
+CM_ SG_ 1900 Position "C0";
+CM_ SG_ 1896 Position "C0";
+CM_ SG_ 1902 Position "C0";
+CM_ SG_ 1894 Quaility "Lane_Mark_Quality";
+CM_ SG_ 1900 Quaility "Lane_Mark_Quality";
+CM_ SG_ 1896 Quaility "Lane_Mark_Quality";
+CM_ SG_ 1902 Quaility "Lane_Mark_Quality";
+CM_ SG_ 1848 RightCloseRangeCutIn "Right_Close_Range_Cut_In";
+CM_ SG_ 1895 Width_marking "Lane_Mark_Width";
+CM_ SG_ 1901 Width_marking "Lane_Mark_Width";
+CM_ SG_ 1897 Width_marking "Lane_Mark_Width";
+CM_ SG_ 1903 Width_marking "Lane_Mark_Width";
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 1894 0;
+BA_ "GenMsgSendType" BO_ 1894 0;
+BA_ "GenMsgCycleTime" BO_ 1894 40;
+BA_ "VFrameFormat" BO_ 1895 0;
+BA_ "GenMsgSendType" BO_ 1895 0;
+BA_ "GenMsgCycleTime" BO_ 1895 40;
+BA_ "VFrameFormat" BO_ 1900 0;
+BA_ "GenMsgSendType" BO_ 1900 0;
+BA_ "GenMsgCycleTime" BO_ 1900 40;
+BA_ "VFrameFormat" BO_ 1901 0;
+BA_ "GenMsgSendType" BO_ 1901 0;
+BA_ "GenMsgCycleTime" BO_ 1901 40;
+BA_ "VFrameFormat" BO_ 1902 0;
+BA_ "GenMsgSendType" BO_ 1902 0;
+BA_ "GenMsgCycleTime" BO_ 1902 40;
+BA_ "VFrameFormat" BO_ 1903 0;
+BA_ "GenMsgSendType" BO_ 1903 0;
+BA_ "GenMsgCycleTime" BO_ 1903 40;
+BA_ "VFrameFormat" BO_ 1896 0;
+BA_ "GenMsgSendType" BO_ 1896 0;
+BA_ "GenMsgCycleTime" BO_ 1896 40;
+BA_ "VFrameFormat" BO_ 1897 0;
+BA_ "GenMsgSendType" BO_ 1897 0;
+BA_ "GenMsgCycleTime" BO_ 1897 40;
+BA_ "VFrameFormat" BO_ 1849 0;
+BA_ "GenMsgSendType" BO_ 1849 0;
+BA_ "GenMsgCycleTime" BO_ 1849 40;
+BA_ "VFrameFormat" BO_ 1876 0;
+BA_ "GenMsgSendType" BO_ 1876 0;
+BA_ "GenMsgCycleTime" BO_ 1876 40;
+BA_ "VFrameFormat" BO_ 1852 0;
+BA_ "GenMsgSendType" BO_ 1852 0;
+BA_ "GenMsgCycleTime" BO_ 1852 40;
+BA_ "VFrameFormat" BO_ 1855 0;
+BA_ "GenMsgSendType" BO_ 1855 0;
+BA_ "GenMsgCycleTime" BO_ 1855 40;
+BA_ "VFrameFormat" BO_ 1858 0;
+BA_ "GenMsgSendType" BO_ 1858 0;
+BA_ "GenMsgCycleTime" BO_ 1858 40;
+BA_ "VFrameFormat" BO_ 1861 0;
+BA_ "GenMsgSendType" BO_ 1861 0;
+BA_ "GenMsgCycleTime" BO_ 1861 40;
+BA_ "VFrameFormat" BO_ 1864 0;
+BA_ "GenMsgSendType" BO_ 1864 0;
+BA_ "GenMsgCycleTime" BO_ 1864 40;
+BA_ "VFrameFormat" BO_ 1867 0;
+BA_ "GenMsgSendType" BO_ 1867 0;
+BA_ "GenMsgCycleTime" BO_ 1867 40;
+BA_ "VFrameFormat" BO_ 1870 0;
+BA_ "GenMsgSendType" BO_ 1870 0;
+BA_ "GenMsgCycleTime" BO_ 1870 40;
+BA_ "VFrameFormat" BO_ 1873 0;
+BA_ "GenMsgSendType" BO_ 1873 0;
+BA_ "GenMsgCycleTime" BO_ 1873 40;
+BA_ "VFrameFormat" BO_ 1850 0;
+BA_ "GenMsgSendType" BO_ 1850 0;
+BA_ "GenMsgCycleTime" BO_ 1850 40;
+BA_ "VFrameFormat" BO_ 1877 0;
+BA_ "GenMsgSendType" BO_ 1877 0;
+BA_ "GenMsgCycleTime" BO_ 1877 40;
+BA_ "VFrameFormat" BO_ 1853 0;
+BA_ "GenMsgSendType" BO_ 1853 0;
+BA_ "GenMsgCycleTime" BO_ 1853 40;
+BA_ "VFrameFormat" BO_ 1856 0;
+BA_ "GenMsgSendType" BO_ 1856 0;
+BA_ "GenMsgCycleTime" BO_ 1856 40;
+BA_ "VFrameFormat" BO_ 1859 0;
+BA_ "GenMsgSendType" BO_ 1859 0;
+BA_ "GenMsgCycleTime" BO_ 1859 40;
+BA_ "VFrameFormat" BO_ 1862 0;
+BA_ "GenMsgSendType" BO_ 1862 0;
+BA_ "GenMsgCycleTime" BO_ 1862 40;
+BA_ "VFrameFormat" BO_ 1865 0;
+BA_ "GenMsgSendType" BO_ 1865 0;
+BA_ "GenMsgCycleTime" BO_ 1865 40;
+BA_ "VFrameFormat" BO_ 1868 0;
+BA_ "GenMsgSendType" BO_ 1868 0;
+BA_ "GenMsgCycleTime" BO_ 1868 40;
+BA_ "VFrameFormat" BO_ 1871 0;
+BA_ "GenMsgSendType" BO_ 1871 0;
+BA_ "GenMsgCycleTime" BO_ 1871 40;
+BA_ "VFrameFormat" BO_ 1874 0;
+BA_ "GenMsgSendType" BO_ 1874 0;
+BA_ "GenMsgCycleTime" BO_ 1874 40;
+BA_ "VFrameFormat" BO_ 1851 0;
+BA_ "GenMsgSendType" BO_ 1851 0;
+BA_ "GenMsgCycleTime" BO_ 1851 40;
+BA_ "VFrameFormat" BO_ 1878 0;
+BA_ "GenMsgSendType" BO_ 1878 0;
+BA_ "GenMsgCycleTime" BO_ 1878 40;
+BA_ "VFrameFormat" BO_ 1854 0;
+BA_ "GenMsgSendType" BO_ 1854 0;
+BA_ "GenMsgCycleTime" BO_ 1854 40;
+BA_ "VFrameFormat" BO_ 1857 0;
+BA_ "GenMsgSendType" BO_ 1857 0;
+BA_ "GenMsgCycleTime" BO_ 1857 40;
+BA_ "VFrameFormat" BO_ 1860 0;
+BA_ "GenMsgSendType" BO_ 1860 0;
+BA_ "GenMsgCycleTime" BO_ 1860 40;
+BA_ "VFrameFormat" BO_ 1863 0;
+BA_ "GenMsgSendType" BO_ 1863 0;
+BA_ "GenMsgCycleTime" BO_ 1863 40;
+BA_ "VFrameFormat" BO_ 1866 0;
+BA_ "GenMsgSendType" BO_ 1866 0;
+BA_ "GenMsgCycleTime" BO_ 1866 40;
+BA_ "VFrameFormat" BO_ 1869 0;
+BA_ "GenMsgSendType" BO_ 1869 0;
+BA_ "GenMsgCycleTime" BO_ 1869 40;
+BA_ "VFrameFormat" BO_ 1872 0;
+BA_ "GenMsgSendType" BO_ 1872 0;
+BA_ "GenMsgCycleTime" BO_ 1872 40;
+BA_ "VFrameFormat" BO_ 1875 0;
+BA_ "GenMsgSendType" BO_ 1875 0;
+BA_ "GenMsgCycleTime" BO_ 1875 40;
+BA_ "VFrameFormat" BO_ 1879 0;
+BA_ "GenMsgSendType" BO_ 1879 0;
+BA_ "GenMsgCycleTime" BO_ 1879 40;
+BA_ "VFrameFormat" BO_ 1888 0;
+BA_ "GenMsgSendType" BO_ 1888 0;
+BA_ "GenMsgCycleTime" BO_ 1888 40;
+BA_ "VFrameFormat" BO_ 1880 0;
+BA_ "GenMsgSendType" BO_ 1880 0;
+BA_ "GenMsgCycleTime" BO_ 1880 40;
+BA_ "VFrameFormat" BO_ 1881 0;
+BA_ "GenMsgSendType" BO_ 1881 0;
+BA_ "GenMsgCycleTime" BO_ 1881 40;
+BA_ "VFrameFormat" BO_ 1882 0;
+BA_ "GenMsgSendType" BO_ 1882 0;
+BA_ "GenMsgCycleTime" BO_ 1882 40;
+BA_ "VFrameFormat" BO_ 1883 0;
+BA_ "GenMsgSendType" BO_ 1883 0;
+BA_ "GenMsgCycleTime" BO_ 1883 40;
+BA_ "VFrameFormat" BO_ 1884 0;
+BA_ "GenMsgSendType" BO_ 1884 0;
+BA_ "GenMsgCycleTime" BO_ 1884 40;
+BA_ "VFrameFormat" BO_ 1885 0;
+BA_ "GenMsgSendType" BO_ 1885 0;
+BA_ "GenMsgCycleTime" BO_ 1885 40;
+BA_ "VFrameFormat" BO_ 1886 0;
+BA_ "GenMsgSendType" BO_ 1886 0;
+BA_ "GenMsgCycleTime" BO_ 1886 40;
+BA_ "VFrameFormat" BO_ 1887 0;
+BA_ "GenMsgSendType" BO_ 1887 0;
+BA_ "GenMsgCycleTime" BO_ 1887 40;
+BA_ "VFrameFormat" BO_ 1848 0;
+BA_ "GenMsgSendType" BO_ 1848 0;
+BA_ "GenMsgCycleTime" BO_ 1848 40;
+BA_ "VFrameFormat" BO_ 1906 0;
+BA_ "GenMsgSendType" BO_ 1906 1;
+BA_ "VFrameFormat" BO_ 1899 0;
+BA_ "GenMsgSendType" BO_ 1899 0;
+BA_ "GenMsgCycleTime" BO_ 1899 40;
+BA_ "GenSigStartValue" SG_ 1879 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1879 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1888 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1888 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1880 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1880 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1881 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1881 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1882 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1882 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1883 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1883 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1884 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1884 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1885 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1885 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1886 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1886 ObstacleEgoLaneAngleRight 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1887 ObstacleEgoLaneAngleLeft 255.5000000000349;
+BA_ "GenSigStartValue" SG_ 1887 ObstacleEgoLaneAngleRight 255.5000000000349;

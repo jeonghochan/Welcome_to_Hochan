@@ -1,0 +1,368 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: TMS WPM2 WPM1 VCU EHPS_R EHPS_F BrakeSystemController SAS SIM Tester ADCU Cluster CM EBS
+
+
+BO_ 2566834759 DM1_EHPS_R: 22 Vector__XXX
+ SG_ DTC4_EHPS_R_B : 112|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC3_EHPS_R_B : 80|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC2_EHPS_R_B : 48|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC1_EHPS_R_B : 16|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ FlashMalfuncIndicatorLamp_R : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashRedStopLamp_EHPS_R_B : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashProtectLamp_EHPS_R_B : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashAmberWarningLamp_EHPS_R_B : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ MalfunctionIndicatorLampStatus_R : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ RedStopLampState_EHPS_R_B : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ AmberWarningLampStatus_EHPS_R_B : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ProtectLampStatus_EHPS_R_B : 0|2@1- (1,0) [0|3] "" Vector__XXX
+
+BO_ 2566834707 DM1_EHPS_F: 22 Vector__XXX
+ SG_ DTC4_EHPS_F_B : 112|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC3_EHPS_F_B : 80|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC2_EHPS_F_B : 48|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ DTC1_EHPS_F_B : 16|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ FlashMalfuncIndicatorLamp : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashRedStopLamp_EHPS_F_B : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashAmberWarningLamp_EHPS_F_B : 10|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ FlashProtectLamp_EHPS_F_B : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ MalfunctionIndicatorLampStatus : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ RedStopLampState_EHPS_F_B : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ AmberWarningLampStatus_EHPS_F_B : 2|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ProtectLampStatus_EHPS_F_B : 0|2@1- (1,0) [0|3] "" Vector__XXX
+
+BO_ 2566832622 VDHR: 8 Vector__XXX
+ SG_ HighResolutionTripDistance : 32|32@1+ (5,0) [0|21055406000] "m" Vector__XXX
+ SG_ HghRsolutionTotalVehicleDistance : 0|32@1+ (5,0) [0|21055406000] "m" Vector__XXX
+
+BO_ 2565867787 VDC2: 8 Vector__XXX
+ SG_ LongitudinalAcceleration : 56|8@1+ (0.1,-12.5) [-12.5|12.5] "m/s^2" Vector__XXX
+ SG_ LateralAcceleration : 40|16@1+ (0.00048828125,-15.687) [-15.687|15.687] "m/s^2" Vector__XXX
+ SG_ YawRate : 24|16@1+ (0.0001220703125,-3.92) [-3.92|3.92] "rad/s" Vector__XXX
+ SG_ SteerWheelAngleSensorType : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ SteerWheelTurnCounter : 16|6@1+ (1,-32) [-10|10] "turns" Vector__XXX
+ SG_ SteerWheelAngle : 0|16@1+ (0.0009765625,-31.374) [-31.374|31.374] "rad" Vector__XXX
+
+BO_ 2566842094 TD: 8 Vector__XXX
+ SG_ LocalHourOffset : 56|8@1+ (1,-125) [-23|23] "h" Vector__XXX
+ SG_ LocalMinuteOffset : 48|8@1+ (1,-125) [-59|59] "min" Vector__XXX
+ SG_ Year : 40|8@1+ (1,1985) [1985|2235] "years" Vector__XXX
+ SG_ Day : 32|8@1+ (0.25,0) [0.25|31.75] "days" Vector__XXX
+ SG_ Month : 24|8@1+ (1,0) [0|12] "months" Vector__XXX
+ SG_ Hours : 16|8@1+ (1,0) [0|23] "h" Vector__XXX
+ SG_ Minutes : 8|8@1+ (1,0) [0|59] "min" Vector__XXX
+ SG_ Seconds : 0|8@1+ (0.25,0) [0|59.75] "s" Vector__XXX
+
+BO_ 2566844672 CCVS: 7 VCU
+ SG_ CR_VCU_CruiseCtrlEnSwitch : 26|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CR_VCU_CruiseCtrlStates : 53|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CR_VCU_CruiseCtrlSetSpd : 40|8@1+ (1,0) [0|0] "KPH" Vector__XXX
+ SG_ CF_VCU_CruiseCtrlAct : 24|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CF_VCU_ClutchSwitch : 30|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CR_VCU_HRWWheelBasedSpd : 8|16@1+ (0.00390625,0) [0|0] "" Vector__XXX
+ SG_ CF_VCU_EMSParkingSW : 2|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CF_VCU_EMSBrkSwitch : 28|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566859759 VCU_CLUINF2: 8 VCU
+ SG_ CR_VCU_SOC : 32|8@1+ (0.5,0) [0|100] "%" Vector__XXX
+ SG_ CR_VCU_AveFuelEco : 24|8@1+ (0.01,0) [0|0] "km/kWh" Vector__XXX
+ SG_ CR_VCU_DCFuelEco : 16|8@1+ (0.01,0) [0|2.55] "km/kWh" Vector__XXX
+ SG_ CR_VCU_DCEnergykWh : 8|8@1+ (1,0) [0|255] "kWh" Vector__XXX
+ SG_ CR_VCU_DCDistancekm : 0|8@1+ (1,0) [0|255] "km" Vector__XXX
+ SG_ CR_VCU_24VAuxBatV : 40|8@1+ (0.125,0) [0|0] "V" Vector__XXX
+
+BO_ 2364539648 EEC2: 8 VCU
+ SG_ CR_VCU_AccelPedPos2 : 32|8@1+ (0.4,0) [0|0] "" Vector__XXX
+ SG_ CR_VCU_AccelPedPos : 8|8@1+ (0.4,0) [0|100] "" Vector__XXX
+
+BO_ 2298375691 HRW: 8 BrakeSystemController
+ SG_ CR_HRW_RRRightWhlSpeed : 48|16@1+ (0.00390625,0) [0|0] "KPH"  VCU
+ SG_ CR_HRW_RRLeftWhlSpeed : 32|16@1+ (0.00390625,0) [0|0] "KPH"  VCU
+ SG_ CR_HRW_FrtRightWhlSpeed : 16|16@1+ (0.00390625,0) [0|0] "KPH"  VCU
+ SG_ CR_HRW_FrtLeftWhlSpeed : 0|16@1+ (0.00390625,0) [0|0] "KPH"  VCU
+
+BO_ 2565866755 ETC2: 8 VCU
+ SG_ CR_VCU_TrasmCurRange : 48|16@1+ (1,0) [33|84] "" Vector__XXX
+ SG_ CR_VCU_TrasmReqRange : 32|16@1+ (1,0) [33|84] "" Vector__XXX
+ SG_ CR_VCU_CurGear : 24|8@1+ (1,-125) [-125|125] "" Vector__XXX
+ SG_ CR_VCU_ActGear : 8|16@1+ (0.001,0) [0|64.255] "" Vector__XXX
+ SG_ CR_VCU_SelGear : 0|8@1+ (1,-125) [-125|125] "" Vector__XXX
+
+
+
+CM_ SG_ 2566844672 CR_VCU_CruiseCtrlStates "000 - Off/Disabled
+001 - Hold
+010 - Accelerate
+011 - Decelerate
+100 - Resume
+101 - Set
+110 - Accelerator Override
+111 - Not available";
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "Yes","No";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_  "NMIdType" INT 0 1;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl";
+BA_DEF_  "SAE_J1939_71_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_73_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_21_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_75_SpecVersion" STRING ;
+BA_DEF_  "DatabaseVersion" STRING ;
+BA_DEF_  "GenNWMApIndRingData" STRING ;
+BA_DEF_ SG_  "Purpose" ENUM  "<t.b.d.>","Function","Diagnostic","Development","NM";
+BA_DEF_ SG_  "TimeoutValue" STRING ;
+BA_DEF_ SG_  "ConversionFormula" STRING ;
+BA_DEF_ SG_  "Validity" ENUM  "B+","ACC","IGN";
+BA_DEF_ SG_  "SignalCategory" HEX 10 15;
+BA_DEF_ SG_  "NmNetworkRequest" ENUM  "No","Yes";
+BA_DEF_ SG_  "NmNetworkRequestHoldingTime" INT 0 65535;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ SG_  "Gatewaysignal" ENUM  "No","M-B","B-M","M-C","C-M","M-C-B";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_ BO_  "RoutingType" ENUM  "<n.a.>","Direct","Indirect";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 1000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 3;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmCAN" INT 1 2;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_  "SyncJumpWidthMax" INT 1 8;
+BA_DEF_  "SyncJumpWidthMin" INT 1 4;
+BA_DEF_  "SamplePointMax" INT 50 85;
+BA_DEF_  "SamplePointMin" INT 55 85;
+BA_DEF_  "Baudrate" INT 50000 500000;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "NmMessageCount" INT 0 256;
+BA_DEF_  "NmBaseAddress" HEX 0 536870911;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "VersionDay" INT 1 31;
+BA_DEF_  "VersionMonth" INT 1 12;
+BA_DEF_  "VersionYear" INT 0 9999;
+BA_DEF_  "VersionWeek" INT 1 53;
+BA_DEF_  "VersionNumber" INT 0 9999;
+BA_DEF_  "GenNWMTalkNM" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 1375 1650;
+BA_DEF_  "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_  "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_  "GenNWMApCanWakeUp" STRING ;
+BA_DEF_  "GenNWMApCanSleep" STRING ;
+BA_DEF_  "GenNWMApCanOn" STRING ;
+BA_DEF_  "GenNWMApCanOff" STRING ;
+BA_DEF_  "GenNWMApCanNormal" STRING ;
+BA_DEF_  "GenNWMApBusSleep" STRING ;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "NotUsed","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 65535;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","reserved","cyclicIfActive","reserved","reserved","reserved","reserved","reserved","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutMsg" HEX 0 2047;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 7000;
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "NMIdType" 1;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "SAE_J1939_71_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_73_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_21_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_75_SpecVersion" "";
+BA_DEF_DEF_  "DatabaseVersion" "";
+BA_DEF_DEF_  "GenNWMApIndRingData" "apIndRingData()";
+BA_DEF_DEF_  "Purpose" "<t.b.d.>";
+BA_DEF_DEF_  "TimeoutValue" "";
+BA_DEF_DEF_  "ConversionFormula" "";
+BA_DEF_DEF_  "Validity" "IGN";
+BA_DEF_DEF_  "SignalCategory" 12;
+BA_DEF_DEF_  "NmNetworkRequest" "No";
+BA_DEF_DEF_  "NmNetworkRequestHoldingTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "Gatewaysignal" "No";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_DEF_DEF_  "RoutingType" "<n.a.>";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmCAN" 1;
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "ProtocolType" "";
+BA_DEF_DEF_  "SyncJumpWidthMax" 4;
+BA_DEF_DEF_  "SyncJumpWidthMin" 2;
+BA_DEF_DEF_  "SamplePointMax" 82;
+BA_DEF_DEF_  "SamplePointMin" 75;
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "Manufacturer" "HMC";
+BA_DEF_DEF_  "NmMessageCount" 256;
+BA_DEF_DEF_  "NmBaseAddress" 218038272;
+BA_DEF_DEF_  "NmType" "Vector";
+BA_DEF_DEF_  "VersionDay" 1;
+BA_DEF_DEF_  "VersionMonth" 1;
+BA_DEF_DEF_  "VersionYear" 0;
+BA_DEF_DEF_  "VersionWeek" 1;
+BA_DEF_DEF_  "VersionNumber" 0;
+BA_DEF_DEF_  "GenNWMTalkNM" "TalkNM()";
+BA_DEF_DEF_  "GenNWMSleepTime" 1500;
+BA_DEF_DEF_  "GenNWMGotoMode_BusSleep" "GotoMode_BusSleep()";
+BA_DEF_DEF_  "GenNWMGotoMode_Awake" "GotoMode_Awake()";
+BA_DEF_DEF_  "GenNWMApCanWakeUp" "apCanWakeUp()";
+BA_DEF_DEF_  "GenNWMApCanSleep" "apCanSleep()";
+BA_DEF_DEF_  "GenNWMApCanOn" "apCanOn()";
+BA_DEF_DEF_  "GenNWMApCanOff" "apCanOff()";
+BA_DEF_DEF_  "GenNWMApCanNormal" "apCanNormal()";
+BA_DEF_DEF_  "GenNWMApBusSleep" "apBusSleep()";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "CANoeILNLVector.dll";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_REL_ "GenSigTimeoutMsg" 0;
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 500;
+BA_ "BusType" "CAN";
+BA_ "DatabaseVersion" "14.06.01";
+BA_ "ProtocolType" "J1939";
+BA_ "VersionDay" 2;
+BA_ "VersionMonth" 6;
+BA_ "VersionYear" 2014;
+BA_ "VersionWeek" 22;
+BA_ "DBName" "CCAN";
+BA_ "NmStationAddress" BU_ TMS 25;
+BA_ "NmStationAddress" BU_ WPM2 58;
+BA_ "NmStationAddress" BU_ WPM1 57;
+BA_ "NmStationAddress" BU_ VCU 239;
+BA_ "NmStationAddress" BU_ EHPS_R 71;
+BA_ "NmStationAddress" BU_ EHPS_F 19;
+BA_ "NodeLayerModules" BU_ BrakeSystemController "CANoeILNLVector.dll";
+BA_ "NmStationAddress" BU_ BrakeSystemController 11;
+BA_ "NmStationAddress" BU_ SAS 228;
+BA_ "NmStationAddress" BU_ SIM 0;
+BA_ "NmStationAddress" BU_ Tester 249;
+BA_ "NmStationAddress" BU_ ADCU 42;
+BA_ "GenMsgSendType" BO_ 2566834759 0;
+BA_ "GenMsgCycleTime" BO_ 2566834759 1000;
+BA_ "VFrameFormat" BO_ 2566834759 3;
+BA_ "GenMsgSendType" BO_ 2566834707 0;
+BA_ "GenMsgCycleTime" BO_ 2566834707 1000;
+BA_ "VFrameFormat" BO_ 2566834707 3;
+BA_ "GenMsgCycleTime" BO_ 2566832622 1000;
+BA_ "GenMsgSendType" BO_ 2566832622 0;
+BA_ "VFrameFormat" BO_ 2566832622 3;
+BA_ "GenMsgCycleTime" BO_ 2565867787 10;
+BA_ "GenMsgSendType" BO_ 2565867787 0;
+BA_ "VFrameFormat" BO_ 2565867787 3;
+BA_ "GenMsgCycleTime" BO_ 2566842094 1000;
+BA_ "GenMsgSendType" BO_ 2566842094 0;
+BA_ "VFrameFormat" BO_ 2566842094 3;
+BA_ "GenMsgILSupport" BO_ 2566844672 1;
+BA_ "GenMsgSendType" BO_ 2566844672 0;
+BA_ "GenMsgCycleTime" BO_ 2566844672 100;
+BA_ "VFrameFormat" BO_ 2566844672 3;
+BA_ "GenMsgILSupport" BO_ 2566859759 1;
+BA_ "GenMsgCycleTime" BO_ 2566859759 500;
+BA_ "GenMsgSendType" BO_ 2566859759 0;
+BA_ "VFrameFormat" BO_ 2566859759 3;
+BA_ "GenMsgILSupport" BO_ 2364539648 1;
+BA_ "GenMsgSendType" BO_ 2364539648 0;
+BA_ "GenMsgCycleTime" BO_ 2364539648 20;
+BA_ "VFrameFormat" BO_ 2364539648 3;
+BA_ "GenMsgSendType" BO_ 2298375691 0;
+BA_ "GenMsgCycleTime" BO_ 2298375691 20;
+BA_ "GenMsgILSupport" BO_ 2298375691 1;
+BA_ "VFrameFormat" BO_ 2298375691 3;
+BA_ "GenMsgSendType" BO_ 2565866755 0;
+BA_ "GenMsgCycleTime" BO_ 2565866755 100;
+BA_ "VFrameFormat" BO_ 2565866755 3;
+BA_ "GenSigStartValue" SG_ 2565867787 SteerWheelTurnCounter 22;
+BA_ "GenSigStartValue" SG_ 2566842094 LocalHourOffset 102;
+BA_ "GenSigStartValue" SG_ 2566842094 LocalMinuteOffset 66;
+BA_ "GenSigStartValue" SG_ 2566842094 Day 1;
+BA_ "GenSigStartValue" SG_ 2566842094 Month 1;
+BA_ "GenSigStartValue" SG_ 2566859759 CR_VCU_SOC 0;
+BA_ "GenSigStartValue" SG_ 2566859759 CR_VCU_DCFuelEco 0;
+BA_ "GenSigStartValue" SG_ 2566859759 CR_VCU_DCEnergykWh 0;
+BA_ "GenSigStartValue" SG_ 2566859759 CR_VCU_DCDistancekm 0;
+BA_ "GenSigStartValue" SG_ 2298375691 CR_HRW_RRRightWhlSpeed 0;
+BA_ "GenSigStartValue" SG_ 2298375691 CR_HRW_RRLeftWhlSpeed 0;
+BA_ "GenSigStartValue" SG_ 2298375691 CR_HRW_FrtRightWhlSpeed 0;
+BA_ "GenSigStartValue" SG_ 2298375691 CR_HRW_FrtLeftWhlSpeed 0;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_TrasmCurRange 80;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_TrasmReqRange 80;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_CurGear 125;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_ActGear 0;
+BA_ "GenSigStartValue" SG_ 2565866755 CR_VCU_SelGear 125;
+

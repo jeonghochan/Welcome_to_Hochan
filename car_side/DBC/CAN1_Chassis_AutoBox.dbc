@@ -1,0 +1,159 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ :
+
+BO_ 1057 AEB11: 8 Vector__XXX
+  SG_ AEB_Failinfo : 50|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1 CAN1_Alive: 8 Vector__XXX
+  SG_ CAN1_Alive : 0|8@1+ (1,0) [0|1000] "" Vector__XXX
+
+BO_ 1345 CGW1: 8 Vector__XXX
+  SG_ CF_Gway_TSigLHSw : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ CF_Gway_TSigRHSw : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1265 CLU11: 8 Vector__XXX
+  SG_ CF_Clu_CruiseSwMain : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CF_Clu_CruiseSwState : 0|3@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 544 ESP12: 7 Vector__XXX
+  SG_ CYL_PRES : 26|12@1+ (0.10000000000000001,0) [0|0] "bar" Vector__XXX
+  SG_ LAT_ACCEL : 0|11@1+ (0.01,-10.23) [0|0] "m/s^2" Vector__XXX
+  SG_ LONG_ACCEL : 13|11@1+ (0.01,-10.23) [0|0] "m/s^2" Vector__XXX
+  SG_ YAW_RATE : 40|13@1+ (0.01,-40.950000000000003) [0|0] "deg/s" Vector__XXX
+
+BO_ 1322 Gear_Statue: 8 Vector__XXX
+  SG_ Gear : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 897 MDPS11: 8 Vector__XXX
+  SG_ CF_Mdps_CurrMode : 59|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CF_Mdps_Stat : 7|4@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CF_Mdps_WLmp : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CR_Mdps_DrvTq : 11|12@1+ (0.01,-20.48) [0|0] "" Vector__XXX
+  SG_ CR_Mdps_StrAng : 24|16@1- (0.10000000000000001,0) [0|0] "" Vector__XXX
+
+BO_ 593 MDPS12: 8 Vector__XXX
+  SG_ CF_Mdps_Def : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CR_Mdps_OutTq : 52|12@1+ (0.10000000000000001,-204.80000000000001) [0|0] "" Vector__XXX
+  SG_ CR_Mdps_StrColTq : 0|11@1+ (0.0080000000000000002,-8) [0|0] "Nm" Vector__XXX
+  SG_ CR_Mdps_StrTq : 40|12@1+ (0.01,-20.48) [0|0] "Nm" Vector__XXX
+
+BO_ 688 SAS11: 5 Vector__XXX
+  SG_ SAS_Angle : 0|16@1- (0.10000000000000001,0) [0|0] "Deg" Vector__XXX
+  SG_ SAS_Speed : 16|8@1+ (4,0) [0|0] "" Vector__XXX
+
+BO_ 916 TCS13: 8 Vector__XXX
+  SG_ ACC_enable : 43|2@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Driver_Braking : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ Driver_Override : 45|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1287 TCS15: 4 Vector__XXX
+  SG_ ESC_Off_Step : 8|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 356 VSM11: 4 Vector__XXX
+  SG_ CF_Esc_Act : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CF_Esc_CtrMode : 13|3@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CF_Esc_Def : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+  SG_ CR_Esc_StrTqReq : 0|12@1+ (0.01,-20.48) [0|0] "Nm" Vector__XXX
+
+BO_ 902 WHL_SPD11: 8 Vector__XXX
+  SG_ WHL_SPD_FL : 0|14@1+ (0.03125,0) [0|0] "km/h" Vector__XXX
+  SG_ WHL_SPD_FR : 16|14@1+ (0.03125,0) [0|0] "km/h" Vector__XXX
+  SG_ WHL_SPD_RL : 32|14@1+ (0.03125,0) [0|0] "km/h" Vector__XXX
+  SG_ WHL_SPD_RR : 48|14@1+ (0.03125,0) [0|0] "km/h" Vector__XXX
+
+BO_ 304 YRS11: 8 Vector__XXX
+  SG_ CR_Yrs_LatAc : 16|16@1+ (0.000127465,-4.1767700000000003) [0|0] "g" Vector__XXX
+  SG_ CR_Yrs_Yr : 0|16@1+ (0.0050000000000000001,-163.84) [0|0] "" Vector__XXX
+
+BO_ 320 YRS12: 8 Vector__XXX
+  SG_ CF_Yrs_Ax : 0|16@1+ (0.00012764499999999991,-4.1767700000000003) [0|0] "" Vector__XXX
+
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 1057 0;
+BA_ "GenMsgSendType" BO_ 1057 1;
+BA_ "VFrameFormat" BO_ 1 0;
+BA_ "GenMsgSendType" BO_ 1 1;
+BA_ "VFrameFormat" BO_ 1345 0;
+BA_ "GenMsgSendType" BO_ 1345 0;
+BA_ "GenMsgCycleTime" BO_ 1345 100;
+BA_ "VFrameFormat" BO_ 1265 0;
+BA_ "GenMsgSendType" BO_ 1265 1;
+BA_ "VFrameFormat" BO_ 544 0;
+BA_ "GenMsgSendType" BO_ 544 1;
+BA_ "VFrameFormat" BO_ 1322 0;
+BA_ "GenMsgSendType" BO_ 1322 1;
+BA_ "VFrameFormat" BO_ 897 0;
+BA_ "GenMsgSendType" BO_ 897 1;
+BA_ "VFrameFormat" BO_ 593 0;
+BA_ "GenMsgSendType" BO_ 593 1;
+BA_ "VFrameFormat" BO_ 688 0;
+BA_ "GenMsgSendType" BO_ 688 1;
+BA_ "VFrameFormat" BO_ 916 0;
+BA_ "GenMsgSendType" BO_ 916 1;
+BA_ "VFrameFormat" BO_ 1287 0;
+BA_ "GenMsgSendType" BO_ 1287 1;
+BA_ "VFrameFormat" BO_ 356 0;
+BA_ "GenMsgSendType" BO_ 356 1;
+BA_ "VFrameFormat" BO_ 902 0;
+BA_ "GenMsgSendType" BO_ 902 1;
+BA_ "VFrameFormat" BO_ 304 0;
+BA_ "GenMsgSendType" BO_ 304 1;
+BA_ "VFrameFormat" BO_ 320 0;
+BA_ "GenMsgSendType" BO_ 320 1;
+BA_ "GenSigStartValue" SG_ 544 LAT_ACCEL 1023;
+BA_ "GenSigStartValue" SG_ 544 LONG_ACCEL 1023;
+BA_ "GenSigStartValue" SG_ 544 YAW_RATE 4095;
+BA_ "GenSigStartValue" SG_ 897 CR_Mdps_DrvTq 2048;
+BA_ "GenSigStartValue" SG_ 593 CR_Mdps_OutTq 2048;
+BA_ "GenSigStartValue" SG_ 593 CR_Mdps_StrColTq 1000;
+BA_ "GenSigStartValue" SG_ 593 CR_Mdps_StrTq 2048;
+BA_ "GenSigStartValue" SG_ 356 CR_Esc_StrTqReq 2048;
+BA_ "GenSigStartValue" SG_ 304 CR_Yrs_LatAc 32767.975522692504;
+BA_ "GenSigStartValue" SG_ 304 CR_Yrs_Yr 32768;
+BA_ "GenSigStartValue" SG_ 320 CF_Yrs_Ax 32721.767401778397;

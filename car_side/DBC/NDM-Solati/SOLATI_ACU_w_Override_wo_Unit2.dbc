@@ -1,0 +1,140 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ACU
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ LAMP_EMR_Status : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 673 SWT_CMD: 8 ACU
+ SG_ SWT_cmd : 8|8@1- (1,0) [-128|127] "" Vector__XXX
+ SG_ SWT_Enable : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1288 ADS: 1 ACU
+ SG_ AD_Status : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1840 OVR: 8 ACU
+ SG_ total_actuator_override : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ throttle_override_monitoring : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ steering_override_monitoring : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ brake_override_monitoring : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1841 ALC: 8 ACU
+ SG_ ETAS_AliveCount : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Radar_AliveCount : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ GPS_AliveCount : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Chassis_AliveCount : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Actuator_AliveCount : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 756 EPAS_Control_Status: 8 Vector__XXX
+ SG_ PID_Control : 16|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ EPAS_Angle_Status : 0|16@1- (0.1,0) [-3276.8|3276.7] "" Vector__XXX
+
+BO_ 755 EPAS_Sensor_Status: 8 Vector__XXX
+ SG_ WHL_Encoder : 32|24@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Encorder : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPAS_Sensor : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 678 STAT2: 8 Vector__XXX
+ SG_ SYS_ERR : 0|8@1+ (1,0) [0|255] ""  ACU
+ SG_ EPS_ERR : 24|8@1+ (1,0) [0|255] ""  ACU
+ SG_ BPS_ERR : 16|8@1+ (1,0) [0|255] ""  ACU
+ SG_ APS_ERR : 8|8@1+ (1,0) [0|255] ""  ACU
+
+BO_ 674 OVR2: 8 ACU
+ SG_ EPS_Th : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BPS_Th : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APS_Th : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 676 STAT: 8 Vector__XXX
+ SG_ LAMP_RT_Status : 7|1@1+ (1,0) [0|0] ""  ACU
+ SG_ LAMP_LT_Status : 6|1@1+ (1,0) [0|0] ""  ACU
+ SG_ EPS_OVR_Status : 5|1@1+ (1,0) [0|1] ""  ACU
+ SG_ BPS_OVR_Status : 4|1@1+ (1,0) [0|1] ""  ACU
+ SG_ APS_OVR_Status : 3|1@1+ (1,0) [0|1] ""  ACU
+ SG_ EPS_cmd_Status : 48|16@1- (0.1,0) [-1800|1800] ""  ACU
+ SG_ CMODE_Status : 0|3@1+ (1,0) [0|7] ""  ACU
+ SG_ BPOS_Status : 40|8@1+ (1,0) [0|100] ""  ACU
+ SG_ BPS_cmd_Status : 32|8@1+ (1,0) [0|100] ""  ACU
+ SG_ APOS_Status : 16|8@1+ (1,0) [0|255] ""  ACU
+ SG_ APOS2_Status : 24|8@1+ (1,0) [0|255] ""  ACU
+ SG_ APS_cmd_Status : 8|8@1+ (1,0) [0|100] ""  ACU
+
+BO_ 672 CMD: 8 ACU
+ SG_ INI_cmd : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LAMP_RT_Enable : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LAMP_LT_Enable : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LAMP_EMR_Enable : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPS_cmd : 24|16@1- (0.1,0) [-1800|1800] "" Vector__XXX
+ SG_ BPS_cmd : 16|8@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ APS_cmd : 8|8@1+ (1,0) [0|100] "" Vector__XXX
+ SG_ EPS_Enable : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ BPS_Enable : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ APS_Enable : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 673 SWT_Enable "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+CM_ SG_ 676 CMODE_Status "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+CM_ SG_ 676 BPOS_Status "ACU BPOS value at host mode, normal mode -> 0";
+CM_ SG_ 676 BPS_cmd_Status "ACU BLEVEL at host mode";
+CM_ SG_ 676 APOS_Status "ACU POS value at host mode, normal mode -> 0";
+CM_ SG_ 676 APOS2_Status "ACU POS2 value at host mode, normal mode -> 0";
+CM_ SG_ 676 APS_cmd_Status "ACU ALEVEL at host mode";
+CM_ SG_ 672 INI_cmd "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+CM_ SG_ 672 EPS_Enable "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+CM_ SG_ 672 BPS_Enable "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+CM_ SG_ 672 APS_Enable "Control mode command
+
+0 - manual mode, 
+1 - host mode";
+

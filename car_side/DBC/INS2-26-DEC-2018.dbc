@@ -1,0 +1,141 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: IL_INS
+
+
+BO_ 460 GNSS_Info: 8 IL_INS
+ SG_ GNSS_Info_Time_Stamp : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ GNSS_Soln_Status : 31|8@0+ (1,0) [0|255] ""  IL_INS
+ SG_ GPS_Time_Status : 23|8@0+ (1,0) [0|255] ""  IL_INS
+ SG_ GNSS_Pos_Type : 15|8@0+ (1,0) [0|255] ""  IL_INS
+ SG_ SolnSVs : 7|8@0+ (1,0) [0|255] ""  IL_INS
+
+BO_ 459 INS_Soln_Accuracy: 8 IL_INS
+ SG_ INS_Soln_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ INS_Soln_Status : 47|8@0+ (1,0) [0|255] ""  IL_INS
+ SG_ INS_Head_Cov : 39|8@0+ (1,0) [0|255] "0.01deg"  IL_INS
+ SG_ INS_Vel_Cov : 23|16@0+ (1,0) [0|65535] "mm/s"  IL_INS
+ SG_ INS_Pos_Cov : 7|16@0+ (1,0) [0|65535] "mm"  IL_INS
+
+BO_ 450 Magnetic_fied: 8 IL_INS
+ SG_ Magn_field_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Magn_field_Z : 39|16@0- (1,0) [-32768|32767] "nT*10"  IL_INS
+ SG_ Magn_field_Y : 23|16@0- (1,0) [-32768|32767] "nT*10"  IL_INS
+ SG_ Magn_field_X : 7|16@0- (1,0) [-32768|32767] "nT*10"  IL_INS
+
+BO_ 449 Accelerations: 8 IL_INS
+ SG_ Acceleration_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Acceleration_Z : 39|16@0- (1,0) [-32768|32767] "g/4000"  IL_INS
+ SG_ Acceleration_Y : 23|16@0- (1,0) [-32768|32767] "g/4000"  IL_INS
+ SG_ Acceleration_X : 7|16@0- (1,0) [-32768|32767] "g/4000"  IL_INS
+
+BO_ 448 Angular_rates: 8 IL_INS
+ SG_ Angular_rate_X : 7|16@0- (1,0) [-32768|32767] "deg/s/50"  IL_INS
+ SG_ Angular_rate_Y : 23|16@0- (1,0) [-32768|32767] "deg/s/50"  IL_INS
+ SG_ Angular_rate_Z : 39|16@0- (1,0) [-32768|32767] "deg/s/50"  IL_INS
+ SG_ Angular_rate_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+
+BO_ 458 Time_Information: 8 IL_INS
+ SG_ GPS_Time_ms : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ GPS_Time_s : 7|32@0+ (1,0) [0|4294967295] "s"  IL_INS
+
+BO_ 457 Altitude_Data: 8 IL_INS
+ SG_ Altitude_Time_Stamp : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Altitude : 7|32@0- (1,0) [-2147483648|2147483647] "millimeter"  IL_INS
+
+BO_ 456 Latitude_Data: 8 IL_INS
+ SG_ Latitude_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Latitude : 7|48@0- (1,0) [-140737488355328|140737488355327] "nanodeg"  IL_INS
+
+BO_ 455 Longitude_Data: 8 IL_INS
+ SG_ Longitude_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Longitude : 7|48@0- (1,0) [-140737488355328|140737488355327] "nanodeg"  IL_INS
+
+BO_ 454 Vertical_Velocity_Data: 8 IL_INS
+ SG_ Vertical_Velocity_Time_Stamp : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ Vertical_Velocity : 7|32@0- (1,0) [-2147483648|2147483647] "0.01ms"  IL_INS
+
+BO_ 453 North_Velocity_Data: 8 IL_INS
+ SG_ North_Velocity_Time_Stamp : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ North_Velocity : 7|32@0- (1,0) [-2147483648|2147483647] "0.01m/s"  IL_INS
+
+BO_ 452 East_Velocity_Data: 8 IL_INS
+ SG_ East_Velocity_Time_Stamp : 39|16@0+ (1,0) [0|65535] "ms"  IL_INS
+ SG_ East_Velocity : 7|32@0- (1,0) [-2147483648|2147483647] "0.01m/s"  IL_INS
+
+BO_ 451 Orientation_Data: 8 IL_INS
+ SG_ Heading : 7|16@0+ (1,0) [0|65535] "0.01deg"  IL_INS
+ SG_ Pitch : 23|16@0- (1,0) [-32768|32767] "0.01deg"  IL_INS
+ SG_ Roll : 39|16@0- (1,0) [-32768|32767] "0.01deg"  IL_INS
+ SG_ Orientation_Time_Stamp : 55|16@0+ (1,0) [0|65535] "ms"  IL_INS
+
+
+
+CM_ BO_ 460 "Accelerations (acceleremeter X,Y,Z data) are scaled 2-bytes signed integers, in g*KA, where KA depends on accelerometer range.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 459 "Accelerations (acceleremeter X,Y,Z data) are scaled 2-bytes signed integers, in g*KA, where KA depends on accelerometer range.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 450 "Magnetic fied (magnetometer X,Y,Z data) are scaled 2-bytes signed integers, in nT/100.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 449 "Accelerations (acceleremeter X,Y,Z data) are scaled 2-bytes signed integers, in g*KA, where KA depends on accelerometer range.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 448 "Angular rates (gyro X,Y,Z data) are scaled 2-bytes signed integers, in (deg/s)*KG, where KG depends on gyro range.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 458 "The first part of this message contains integer part of GPS reference time in seconds. The second part contains fractional part of GPS reference time as number of milliseconds.";
+CM_ BO_ 457 "Altitude data is scaled 4-bytes signed integer, in meters*1000. So Altitude data resolution is 0.001 meter.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 456 "Latitude data is scaled 6-bytes signed integer, in degrees*1e9. So latitude data resolution is 1e–9 degrees.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 455 "Longitude data is scaled 6-bytes signed integer, in degrees*1e9. So longitude data resolution is 1e–9 degrees.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 454 "Vertical velocity data is scaled 4-bytes signed integer, in (m/s)*100. So vertical velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done";
+CM_ BO_ 453 "North velocity data is scaled 4-bytes signed integer, in (m/s)*100. So north velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.";
+CM_ BO_ 452 "East velocity data is scaled 4-bytes signed integer, in (m/s)*100. So east velocity data resolution is 0.01 m/s.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+CM_ BO_ 451 "Heading data are scaled 2-bytes unsigned integers, in degrees*100.
+Pitch and roll data are scaled 2-bytes signed integers, in degrees*100.
+Time stamp is number of milliseconds in GPS reference time at which the measurements were done.
+";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+
